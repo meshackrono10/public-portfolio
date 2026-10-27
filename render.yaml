@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: meshack-portfolio
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /images/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /fonts/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

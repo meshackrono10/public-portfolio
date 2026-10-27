@@ -1,0 +1,1729 @@
+import { t as e } from "./runtime.mjs";
+import {
+  F as t,
+  M as n,
+  T as r,
+  b as i,
+  c as a,
+  j as o,
+  l as s,
+  o as c,
+  p as l,
+  s as u,
+  w as ee,
+} from "./react.mjs";
+import { D as d, a as te, r as ne, t as re } from "./motion.mjs";
+import {
+  A as f,
+  Ct as ie,
+  Dt as p,
+  I as m,
+  L as h,
+  O as ae,
+  R as g,
+  S as _,
+  Tt as v,
+  U as oe,
+  X as y,
+  _ as b,
+  _t as se,
+  a as x,
+  bt as S,
+  c as C,
+  dt as ce,
+  f as w,
+  g as le,
+  gt as ue,
+  i as T,
+  n as de,
+  pt as E,
+  st as fe,
+  u as D,
+  ut as pe,
+  w as me,
+  wt as O,
+  x as k,
+  yt as A,
+} from "./framer.mjs";
+import {
+  a as j,
+  c as M,
+  d as N,
+  f as P,
+  i as F,
+  l as he,
+  n as I,
+  o as L,
+  r as R,
+  s as z,
+  t as B,
+  u as V,
+} from "./shared-lib.mjs";
+import { i as ge, n as _e, r as H, t as U } from "./logo-banner.mjs";
+import { n as ve, t as ye } from "./infinite-banner.mjs";
+import { i as be, n as xe, r as Se, t as Ce } from "./ui-component-19.mjs";
+import { n as we, t as Te } from "./slider-about-us.mjs";
+import { i as Ee, n as De } from "./collection-projects.mjs";
+import { i as Oe, n as ke, r as Ae, t as je } from "./ui-component-9.mjs";
+import { n as Me, t as Ne } from "./infinite-marquee.mjs";
+import { i as Pe, n as Fe, r as Ie, t as Le } from "./ui-component-8.mjs";
+import Re, {
+  t as ze,
+} from "./ui-component-1.mjs";
+var Be,
+  Ve,
+  W,
+  He,
+  Ue,
+  We,
+  Ge,
+  Ke,
+  qe,
+  Je,
+  Ye,
+  Xe,
+  Ze,
+  Qe,
+  $e,
+  et,
+  tt,
+  nt,
+  rt,
+  it,
+  G,
+  at,
+  ot,
+  st,
+  ct,
+  K,
+  q,
+  J,
+  Y,
+  lt,
+  X,
+  ut,
+  dt,
+  Z,
+  ft,
+  pt,
+  Q,
+  $;
+e(() => {
+  (u(),
+    oe(),
+    re(),
+    r(),
+    ge(),
+    M(),
+    L(),
+    F(),
+    I(),
+    _e(),
+    we(),
+    ve(),
+    Me(),
+    Ee(),
+    Pe(),
+    Oe(),
+    P(),
+    be(),
+    ze(),
+    (Be = v(d.a)),
+    (Ve = O(D)),
+    (W = v(d.div)),
+    (He = m(Ne)),
+    (Ue = v(x)),
+    (We = m(Te)),
+    (Ge = m(U)),
+    (Ke = m(H)),
+    (qe = m(ye)),
+    (Je = m(R)),
+    (Ye = m(B)),
+    (Xe = m(j)),
+    (Ze = m(z)),
+    (Qe = p(z)),
+    ($e = {
+      i8qOlT7J_: `(max-width: 809.98px)`,
+      kt84ZUd0A: `(min-width: 810px) and (max-width: 1199.98px)`,
+      Wni_wsjCI: `(min-width: 1200px) and (max-width: 1919.98px)`,
+      z9xgVwy_l: `(min-width: 1920px)`,
+    }),
+    (et = [`has-header-image`]),
+    (tt = `framer-VSKDW`),
+    (nt = {
+      i8qOlT7J_: `framer-v-tib70m`,
+      kt84ZUd0A: `framer-v-oa6nop`,
+      Wni_wsjCI: `framer-v-ak8hk5`,
+      z9xgVwy_l: `framer-v-12kta9q`,
+    }),
+    (rt = (e, t, n) => (e && t ? `position` : n)),
+    (it = {
+      opacity: 1,
+      rotate: 0,
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      skewX: 0,
+      skewY: 0,
+      transition: {
+        delay: 1.4,
+        duration: 0.8,
+        ease: [0.44, 0, 0.56, 1],
+        type: `tween`,
+      },
+      x: 0,
+      y: 0,
+    }),
+    (G = {
+      opacity: 0.001,
+      rotate: 0,
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      skewX: 0,
+      skewY: 0,
+      x: 0,
+      y: 0,
+    }),
+    (at = {
+      effect: {
+        opacity: 0.001,
+        rotate: 0,
+        scale: 1.1,
+        skewX: 0,
+        skewY: 0,
+        x: 0,
+        y: 40,
+      },
+      tokenization: `character`,
+      transition: { bounce: 0, delay: 0.05, duration: 0.4, type: `spring` },
+      trigger: `onMount`,
+      type: `appear`,
+    }),
+    (ot = {
+      opacity: 1,
+      rotate: 0,
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      skewX: 0,
+      skewY: 0,
+      transition: {
+        delay: 0.5,
+        duration: 0.8,
+        ease: [0.44, 0, 0.56, 1],
+        type: `tween`,
+      },
+      x: 0,
+      y: 0,
+    }),
+    (st = { delay: 0, duration: 5, ease: [0, 0, 1, 1], type: `tween` }),
+    (ct = {
+      opacity: 1,
+      rotate: 360,
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      skewX: 0,
+      skewY: 0,
+      x: 0,
+      y: 0,
+    }),
+    (K = {
+      opacity: 1,
+      rotate: 0,
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      skewX: 0,
+      skewY: 0,
+      transition: {
+        delay: 0.7,
+        duration: 0.8,
+        ease: [0.44, 0, 0.56, 1],
+        type: `tween`,
+      },
+      x: 0,
+      y: 0,
+    }),
+    (q = (e, t) => {
+      if (!(!e || typeof e != `object`)) return { ...e, alt: t };
+    }),
+    (J = (...e) => {
+      for (let t of e) if (t && typeof t == `string`) return t;
+    }),
+    (Y = (e) =>
+      typeof e == `object` && e && typeof e.src == `string`
+        ? e
+        : typeof e == `string`
+          ? { src: e }
+          : void 0),
+    (lt = (e, t) =>
+      typeof e == `string` && typeof t == `string`
+        ? e.toLowerCase() === t.toLowerCase()
+        : e === t),
+    (X = () => ({
+      from: { alias: `Dfb4gtGi5`, data: De, type: `Collection` },
+      limit: { type: `LiteralValue`, value: 3 },
+      orderBy: [
+        {
+          collection: `Dfb4gtGi5`,
+          direction: `desc`,
+          name: `kmQKyw8Lf`,
+          type: `Identifier`,
+        },
+      ],
+      select: [
+        { collection: `Dfb4gtGi5`, name: `qD3idoXBI`, type: `Identifier` },
+        { collection: `Dfb4gtGi5`, name: `MHavgab9P`, type: `Identifier` },
+        { collection: `Dfb4gtGi5`, name: `qBtf4Z2oP`, type: `Identifier` },
+        { collection: `Dfb4gtGi5`, name: `jDawn0KmC`, type: `Identifier` },
+        { collection: `Dfb4gtGi5`, name: `id`, type: `Identifier` },
+      ],
+    })),
+    (ut = ({ query: e, pageSize: t, children: n }) => n(A(e))),
+    (dt = (e, t) => `translateX(-50%) ${t}`),
+    (Z = {
+      Desktop: `Wni_wsjCI`,
+      Large: `z9xgVwy_l`,
+      Phone: `i8qOlT7J_`,
+      Tablet: `kt84ZUd0A`,
+    }),
+    (ft = ({ value: e }) =>
+      E()
+        ? null
+        : c(`style`, {
+            dangerouslySetInnerHTML: { __html: e },
+            "data-framer-html-style": ``,
+          })),
+    (pt = ({ height: e, id: t, width: n, ...r }) => ({
+      ...r,
+      variant: Z[r.variant] ?? r.variant ?? `Wni_wsjCI`,
+    })),
+    (Q = ie(
+      l(function (e, r) {
+        let l = i(null),
+          u = r ?? l,
+          re = ee(),
+          { activeLocale: f, setLocale: ie } = ue(),
+          p = fe(),
+          { style: m, className: h, layoutId: v, variant: oe, ...y } = pt(e);
+        se(n(() => Re({}, f), [f]));
+        let [E, me] = ce(oe, $e, !1),
+          O = ae(tt, Le, Ce, je, he),
+          A = o(C)?.isLayoutTemplate,
+          M = !!o(te)?.transition?.layout,
+          N = rt(A, M),
+          P = S(`Yu2xEfOf_`),
+          F = i(null),
+          I = S(`r1KpbDqeC`),
+          L = i(null),
+          z = S(`NhN_dOXH7`),
+          V = i(null);
+        return (
+          pe({}),
+          c(C.Provider, {
+            value: {
+              activeVariantId: E,
+              humanReadableVariantMap: Z,
+              primaryVariantId: `Wni_wsjCI`,
+              variantClassNames: nt,
+            },
+            children: s(ne, {
+              id: v ?? re,
+              children: [
+                c(ft, { value: `html body { background: rgb(0, 0, 0); }` }),
+                s(d.div, {
+                  ...y,
+                  className: ae(O, `framer-ak8hk5`, h),
+                  ref: u,
+                  style: { ...m },
+                  children: [
+                    s(d.div, {
+                      className: `framer-une7na`,
+                      "data-framer-name": `Wrapper`,
+                      layout: N,
+                      children: [
+                        s(`div`, {
+                          className: `framer-11bq0hp`,
+                          children: [
+                            c(w, {
+                              href: {
+                                hash: `:JWV_zjlZU`,
+                                webPageId: `augiA20Il`,
+                              },
+                              motionChild: !0,
+                              nodeId: `SeiVZQMl0`,
+                              openInNewTab: !1,
+                              scopeId: `XGbLixgbp`,
+                              children: c(Be, {
+                                animate: it,
+                                className: `framer-uy0kbz framer-8wk15w`,
+                                "data-framer-appear-id": `uy0kbz`,
+                                initial: G,
+                                optimized: !0,
+                                children: c(_, {
+                                  className: `framer-1thechi`,
+                                  "data-framer-name": `arrow-left`,
+                                  opacity: 1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30"><path d="M 5.182 14.557 C 4.939 14.799 4.939 15.197 5.182 15.44 L 12.057 22.314 C 12.299 22.557 12.697 22.557 12.94 22.314 C 13.182 22.072 13.182 21.674 12.94 21.432 L 7.131 15.623 L 24.373 15.623 C 24.717 15.623 24.998 15.342 24.998 14.998 C 24.998 14.654 24.717 14.373 24.373 14.373 L 7.131 14.373 L 12.94 8.564 C 13.182 8.322 13.182 7.924 12.94 7.682 C 12.697 7.439 12.299 7.439 12.057 7.682 Z" fill="rgb(102, 102, 102)"></path></svg>`,
+                                  svgContentId: 12507696995,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                            }),
+                            s(`div`, {
+                              className: `framer-13w0dgz`,
+                              children: [
+                                c(k, {
+                                  __fromCanvasComponent: !0,
+                                  children: c(t, {
+                                    children: s(`h1`, {
+                                      className: `framer-styles-preset-bgyzp4`,
+                                      "data-styles-preset": `LP5oqCjgA`,
+                                      dir: `auto`,
+                                      style: {
+                                        "--framer-text-alignment": `left`,
+                                      },
+                                      children: [
+                                        `Interior and `,
+                                        c(`br`, {}),
+                                        `Spatial Design`,
+                                      ],
+                                    }),
+                                  }),
+                                  className: `framer-1dal676`,
+                                  "data-framer-name": `Title`,
+                                  effect: at,
+                                  fonts: [`Inter`],
+                                  verticalAlignment: `top`,
+                                  withExternalLayout: !0,
+                                }),
+                                c(W, {
+                                  animate: ot,
+                                  className: `framer-8xp6k2`,
+                                  "data-framer-appear-id": `8xp6k2`,
+                                  initial: G,
+                                  optimized: !0,
+                                  children: c(b, {
+                                    breakpoint: E,
+                                    overrides: {
+                                      i8qOlT7J_: {
+                                        background: {
+                                          alt: ``,
+                                          fit: `fill`,
+                                          intrinsicHeight: 400,
+                                          intrinsicWidth: 400,
+                                          loading: g(
+                                            (p?.y || 0) +
+                                              0 +
+                                              0 +
+                                              200 +
+                                              0 +
+                                              0 +
+                                              65 +
+                                              0 +
+                                              -26,
+                                          ),
+                                          pixelHeight: 400,
+                                          pixelWidth: 400,
+                                          sizes: `154.1px`,
+                                          src: `/images/project-reforma-x-people-people.png?width=400&height=400`,
+                                        },
+                                      },
+                                    },
+                                    children: c(Ve, {
+                                      __framer__loop: ct,
+                                      __framer__loopEffectEnabled: !0,
+                                      __framer__loopPauseOffscreen: !0,
+                                      __framer__loopRepeatDelay: 0,
+                                      __framer__loopRepeatType: `loop`,
+                                      __framer__loopTransition: st,
+                                      __perspectiveFX: !1,
+                                      __targetOpacity: 1,
+                                      background: {
+                                        alt: ``,
+                                        fit: `fill`,
+                                        intrinsicHeight: 400,
+                                        intrinsicWidth: 400,
+                                        loading: g(
+                                          (p?.y || 0) +
+                                            0 +
+                                            0 +
+                                            200 +
+                                            0 +
+                                            20 +
+                                            75 +
+                                            0 +
+                                            -80,
+                                        ),
+                                        pixelHeight: 400,
+                                        pixelWidth: 400,
+                                        sizes: `230.6px`,
+                                        src: `/images/project-reforma-x-people-people.png?width=400&height=400`,
+                                      },
+                                      className: `framer-1e9sfth`,
+                                    }),
+                                  }),
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                        s(W, {
+                          animate: K,
+                          className: `framer-16ccvox`,
+                          "data-framer-appear-id": `16ccvox`,
+                          initial: G,
+                          optimized: !0,
+                          children: [
+                            c(`div`, {
+                              className: `framer-1l47zhg`,
+                              children: c(k, {
+                                __fromCanvasComponent: !0,
+                                children: c(t, {
+                                  children: s(`h2`, {
+                                    className: `framer-styles-preset-1wc8dab`,
+                                    "data-styles-preset": `yVYr7T1im`,
+                                    dir: `auto`,
+                                    children: [
+                                      `Space is attitude. `,
+                                      c(`br`, {}),
+                                      `And attitude can be built.`,
+                                    ],
+                                  }),
+                                }),
+                                className: `framer-usej8k`,
+                                fonts: [`Inter`],
+                                verticalAlignment: `top`,
+                                withExternalLayout: !0,
+                              }),
+                            }),
+                            c(`div`, {
+                              className: `framer-sb0dk0`,
+                              children: c(b, {
+                                breakpoint: E,
+                                overrides: {
+                                  z9xgVwy_l: {
+                                    children: c(t, {
+                                      children: c(`p`, {
+                                        className: `framer-styles-preset-2as7yh`,
+                                        "data-styles-preset": `lPwEKojoG`,
+                                        dir: `auto`,
+                                        children: `I architect and deliver full-stack software from system design through to production deployment. From high-throughput APIs and cloud infrastructure to responsive, accessible interfaces, every layer is engineered for reliability and speed.`,
+                                      }),
+                                    }),
+                                  },
+                                },
+                                children: c(k, {
+                                  __fromCanvasComponent: !0,
+                                  children: c(t, {
+                                    children: c(`p`, {
+                                      className: `framer-styles-preset-2as7yh`,
+                                      "data-styles-preset": `lPwEKojoG`,
+                                      dir: `auto`,
+                                      children: `Spatial design shapes how people move, meet and interact. We create environments where architecture, atmosphere and narrative merge into one coherent spatial language, from individual interiors to complex environments.`,
+                                    }),
+                                  }),
+                                  className: `framer-wtk4f6`,
+                                  fonts: [`Inter`],
+                                  verticalAlignment: `top`,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    c(T, {
+                      children: c(Ue, {
+                        animate: K,
+                        className: `framer-upka2l-container`,
+                        "data-code-component-plugin-id": `84d4c1`,
+                        "data-framer-appear-id": `upka2l`,
+                        initial: G,
+                        isAuthoredByUser: !0,
+                        layout: N,
+                        nodeId: `xZ9naBlZc`,
+                        optimized: !0,
+                        rendersWithMotion: !0,
+                        scopeId: `XGbLixgbp`,
+                        children: c(Ne, {
+                          backgroundColor: `var(--token-fb37ef9f-b04f-4314-9731-cff242a9823b, rgb(147, 212, 242))`,
+                          direction: `left`,
+                          fadeEdges: !1,
+                          fadeWidth: 100,
+                          font: {
+                            fontFamily: `"Poppins Regular", "Poppins Regular Placeholder", sans-serif`,
+                            fontSize: `16px`,
+                            fontStyle: `normal`,
+                            fontWeight: 400,
+                            letterSpacing: `-0.01em`,
+                            lineHeight: `1.2em`,
+                          },
+                          gap: 25,
+                          height: `100%`,
+                          id: `xZ9naBlZc`,
+                          items: [
+                            { text: `Interior design` },
+                            { text: `Workplace design` },
+                            { text: `Environmental design` },
+                            { text: `Landscape design` },
+                            { text: `Furniture & product design` },
+                          ],
+                          layoutId: `xZ9naBlZc`,
+                          pauseOnHover: !0,
+                          separator: [
+                            c(d.div, {
+                              className: `framer-d7o00i`,
+                              "data-framer-name": `Ellipse 244`,
+                            }),
+                          ],
+                          showSeparator: !0,
+                          speed: 50,
+                          style: { height: `100%`, width: `100%` },
+                          textColor: `rgb(255, 255, 255)`,
+                          width: `100%`,
+                        }),
+                      }),
+                    }),
+                    c(W, {
+                      animate: K,
+                      className: `framer-1dl7zad`,
+                      "data-framer-appear-id": `1dl7zad`,
+                      "data-framer-name": `Slider`,
+                      initial: G,
+                      layout: N,
+                      optimized: !0,
+                      children: c(T, {
+                        children: c(x, {
+                          className: `framer-q3s693-container`,
+                          isAuthoredByUser: !0,
+                          nodeId: `ujwus1uIa`,
+                          scopeId: `XGbLixgbp`,
+                          children: c(b, {
+                            breakpoint: E,
+                            overrides: {
+                              i8qOlT7J_: {
+                                buttonSize: 42,
+                                gap: 15,
+                                mobileCardWidth: 320,
+                                padding: 0,
+                                sliderHeight: 400,
+                              },
+                              kt84ZUd0A: {
+                                gap: 24,
+                                sliderHeight: 395,
+                                tabletCardWidth: 310,
+                              },
+                            },
+                            children: c(Te, {
+                              arrowColor: `rgb(255, 255, 255)`,
+                              arrowSize: 22,
+                              buttonBottom: 10,
+                              buttonFill: `rgb(200, 155, 239)`,
+                              buttonGap: 14,
+                              buttonLeft: 0,
+                              buttonRadius: 999,
+                              buttonSize: 58,
+                              buttonTop: 39,
+                              desktopCardWidth: 430,
+                              gap: 64,
+                              height: `100%`,
+                              id: `ujwus1uIa`,
+                              itemRadius: 0,
+                              items: [
+                                {
+                                  alignment: `bottom`,
+                                  alt: `DingDong ping pong room with two Donic table tennis tables in a corridor of warm yellow walls and a glowing „DingDong Ping Pong" sign on the back wall.`,
+                                  height: 0.75,
+                                  image: q(
+                                    {
+                                      pixelHeight: 2e3,
+                                      pixelWidth: 1441,
+                                      src: `/images/service-interior-and-spatial-design-9.webp?width=1441&height=2000`,
+                                      srcSet: `/images/service-interior-and-spatial-design-9.webp?scale-down-to=1024&width=1441&height=2000 737w,/images/service-interior-and-spatial-design-9.webp?width=1441&height=2000 1441w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.55,
+                                },
+                                {
+                                  alignment: `top`,
+                                  alt: `Pastel pink bathroom interior with double white sinks on a pink countertop, oval mirror, pink tiled walls and floor.`,
+                                  height: 0.85,
+                                  image: q(
+                                    {
+                                      pixelHeight: 2e3,
+                                      pixelWidth: 1333,
+                                      src: `/images/service-interior-and-spatial-design-10.webp?width=1333&height=2000`,
+                                      srcSet: `/images/service-interior-and-spatial-design-10.webp?scale-down-to=1024&width=1333&height=2000 682w,/images/service-interior-and-spatial-design-10.webp?width=1333&height=2000 1333w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.65,
+                                },
+                                {
+                                  alignment: `bottom`,
+                                  alt: `Modular wooden workbench with cobalt-blue metal frame, drawers and storage compartments, set against a backdrop of beige drapes.`,
+                                  height: 0.65,
+                                  image: q(
+                                    {
+                                      pixelHeight: 1333,
+                                      pixelWidth: 2e3,
+                                      src: `/images/service-interior-and-spatial-design-5.webp?width=2000&height=1333`,
+                                      srcSet: `/images/service-interior-and-spatial-design-5.webp?scale-down-to=512&width=2000&height=1333 512w,/images/service-interior-and-spatial-design-5.webp?scale-down-to=1024&width=2000&height=1333 1024w,/images/service-interior-and-spatial-design-5.webp?width=2000&height=1333 2000w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.8,
+                                },
+                                {
+                                  alignment: `top`,
+                                  alt: `Event counter with mint-green corrugated cladding and wooden top, framed by a rectangular pendant fixture with globe lights and trailing greenery.`,
+                                  height: 1.1,
+                                  image: q(
+                                    {
+                                      pixelHeight: 2e3,
+                                      pixelWidth: 1334,
+                                      src: `/images/service-interior-and-spatial-design-3.webp?width=1334&height=2000`,
+                                      srcSet: `/images/service-interior-and-spatial-design-3.webp?scale-down-to=1024&width=1334&height=2000 683w,/images/service-interior-and-spatial-design-3.webp?width=1334&height=2000 1334w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.7,
+                                },
+                                {
+                                  alignment: `bottom`,
+                                  alt: `Minimalist Cycla reception area with mint-green tiled counter, white walls, locker zone labelled „Towels" and the Cycla logo on the back wall.`,
+                                  height: 0.7,
+                                  image: q(
+                                    {
+                                      pixelHeight: 1329,
+                                      pixelWidth: 1999,
+                                      src: `/images/service-interior-and-spatial-design-6.webp?width=1999&height=1329`,
+                                      srcSet: `/images/service-interior-and-spatial-design-6.webp?scale-down-to=512&width=1999&height=1329 512w,/images/service-interior-and-spatial-design-6.webp?scale-down-to=1024&width=1999&height=1329 1024w,/images/service-interior-and-spatial-design-6.webp?width=1999&height=1329 1999w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 1.1,
+                                },
+                                {
+                                  alignment: `top`,
+                                  alt: `Industrial-style sports interior with orange plastic seating mounted on a chain-link cage, monochrome graffiti mural and orange chevron pattern painted on the floor.`,
+                                  height: 0.75,
+                                  image: q(
+                                    {
+                                      pixelHeight: 2e3,
+                                      pixelWidth: 1333,
+                                      src: `/images/service-interior-and-spatial-design-8.webp?width=1333&height=2000`,
+                                      srcSet: `/images/service-interior-and-spatial-design-8.webp?scale-down-to=1024&width=1333&height=2000 682w,/images/service-interior-and-spatial-design-8.webp?width=1333&height=2000 1333w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.55,
+                                },
+                                {
+                                  alignment: `bottom`,
+                                  alt: `Bright open coworking space with yellow, teal and coral colour-blocked tables, modular metal grid dividers and floor-to-ceiling curtains.`,
+                                  height: 0.7,
+                                  image: q(
+                                    {
+                                      pixelHeight: 1330,
+                                      pixelWidth: 2e3,
+                                      src: `/images/service-interior-and-spatial-design-7.webp?width=2000&height=1330`,
+                                      srcSet: `/images/service-interior-and-spatial-design-7.webp?scale-down-to=512&width=2000&height=1330 512w,/images/service-interior-and-spatial-design-7.webp?scale-down-to=1024&width=2000&height=1330 1024w,/images/service-interior-and-spatial-design-7.webp?width=2000&height=1330 2000w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 1,
+                                },
+                                {
+                                  alignment: `top`,
+                                  alt: `Open interior space divided by suspended grey fabric curtains with a beige-tiled counter and exposed industrial ceiling.`,
+                                  height: 0.85,
+                                  image: q(
+                                    {
+                                      pixelHeight: 2e3,
+                                      pixelWidth: 1333,
+                                      src: `/images/service-interior-and-spatial-design-4.webp?width=1333&height=2000`,
+                                      srcSet: `/images/service-interior-and-spatial-design-4.webp?scale-down-to=1024&width=1333&height=2000 682w,/images/service-interior-and-spatial-design-4.webp?width=1333&height=2000 1333w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 0.65,
+                                },
+                                {
+                                  alignment: `bottom`,
+                                  alt: `DingDong merch zone in bright yellow with mesh display walls, branded t-shirts on hangers and a colourful ball-pit beneath the shelving.`,
+                                  height: 0.75,
+                                  image: q(
+                                    {
+                                      pixelHeight: 1333,
+                                      pixelWidth: 2e3,
+                                      src: `/images/service-interior-and-spatial-design-2.webp?width=2000&height=1333`,
+                                      srcSet: `/images/service-interior-and-spatial-design-2.webp?scale-down-to=512&width=2000&height=1333 512w,/images/service-interior-and-spatial-design-2.webp?scale-down-to=1024&width=2000&height=1333 1024w,/images/service-interior-and-spatial-design-2.webp?width=2000&height=1333 2000w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 1.25,
+                                },
+                                {
+                                  alignment: `top`,
+                                  alt: `Training room with orange container walls, glowing X-shaped neon signage, bench seating behind a wire cage and screens for class instructions.`,
+                                  height: 0.7,
+                                  image: q(
+                                    {
+                                      pixelHeight: 1333,
+                                      pixelWidth: 2e3,
+                                      src: `/images/service-interior-and-spatial-design.webp?width=2000&height=1333`,
+                                      srcSet: `/images/service-interior-and-spatial-design.webp?scale-down-to=512&width=2000&height=1333 512w,/images/service-interior-and-spatial-design.webp?scale-down-to=1024&width=2000&height=1333 1024w,/images/service-interior-and-spatial-design.webp?width=2000&height=1333 2000w`,
+                                    },
+                                    ``,
+                                  ),
+                                  width: 1,
+                                },
+                              ],
+                              itemShadow: !1,
+                              layoutId: `ujwus1uIa`,
+                              mobileBreakpoint: 768,
+                              mobileCardWidth: 220,
+                              offsetStrength: 1,
+                              padding: 56,
+                              sliderHeight: 555,
+                              style: { width: `100%` },
+                              tabletCardWidth: 280,
+                              transitionDuration: 0.2,
+                              width: `100%`,
+                            }),
+                          }),
+                        }),
+                      }),
+                    }),
+                    c(T, {
+                      children: c(x, {
+                        className: `framer-mye7ks-container`,
+                        isAuthoredByUser: !0,
+                        layout: N,
+                        nodeId: `GBV1fwCZj`,
+                        scopeId: `XGbLixgbp`,
+                        children: c(U, {
+                          background: `rgb(0, 0, 0)`,
+                          gap: 55,
+                          height: `100%`,
+                          id: `GBV1fwCZj`,
+                          layoutId: `GBV1fwCZj`,
+                          logoHeight: 18,
+                          logos: [
+                            `/images/service-workplace-new-work-2.png?width=736&height=128`,
+                            `/images/service-workplace-new-work-6.png?width=268&height=54`,
+                            `/images/service-workplace-new-work-15.png?width=286&height=44`,
+                            `/images/service-workplace-new-work-12.png?width=240&height=64`,
+                            `/images/service-workplace-new-work-8.png?width=418&height=83`,
+                            `/images/service-workplace-new-work-10.png?width=775&height=390`,
+                            `/images/service-workplace-new-work-9.png?width=170&height=60`,
+                            `/images/service-workplace-new-work-4.png?width=746&height=376`,
+                            `/images/service-workplace-new-work-5.png?width=236&height=60`,
+                            `/images/service-workplace-new-work-11.png?width=306&height=52`,
+                            `/images/service-workplace-new-work-14.png?width=775&height=200`,
+                            `/images/service-workplace-new-work-13.png?width=1479&height=200`,
+                            `/images/service-workplace-new-work-3.png?width=524&height=200`,
+                            `/images/service-workplace-new-work-16.png?width=1232&height=200`,
+                            `/images/service-workplace-new-work-7.png?width=1272&height=270`,
+                          ],
+                          paddingX: 8,
+                          pauseOnHover: !0,
+                          radius: 0,
+                          rowHeight: 53,
+                          speed: 40,
+                          style: { height: `100%`, width: `100%` },
+                          width: `100%`,
+                        }),
+                      }),
+                    }),
+                    c(b, {
+                      breakpoint: E,
+                      overrides: {
+                        i8qOlT7J_: { height: 1e3, y: (p?.y || 0) + 0 + 1200.2 },
+                        kt84ZUd0A: { y: (p?.y || 0) + 0 + 1270.2 },
+                        z9xgVwy_l: { y: (p?.y || 0) + 0 + 1440.2 },
+                      },
+                      children: c(T, {
+                        height: 1000.9407,
+                        width: p?.width || `100vw`,
+                        y: (p?.y || 0) + 0 + 1380.2,
+                        children: c(x, {
+                          className: `framer-cxz9l1-container`,
+                          id: P,
+                          layout: N,
+                          nodeId: `Yu2xEfOf_`,
+                          ref: F,
+                          scopeId: `XGbLixgbp`,
+                          children: c(b, {
+                            breakpoint: E,
+                            overrides: {
+                              i8qOlT7J_: { variant: J(`z66nltSCh`) },
+                              kt84ZUd0A: { variant: J(`gpoQhjy8T`) },
+                            },
+                            children: c(H, {
+                              CccmEY23b: `Technical Architecture`,
+                              height: `100%`,
+                              id: `Yu2xEfOf_`,
+                              layoutId: `Yu2xEfOf_`,
+                              lxJjwHR6I: `AI & Product Engineering`,
+                              MG6itLVx3: `Frontend & Interactive UI`,
+                              p2kaUmVZk: `Cloud & DevOps Systems`,
+                              pOC4Oy0rY: `Full-Stack Web Apps`,
+                              style: { height: `100%`, width: `100%` },
+                              variant: J(`MAZEZ2itw`),
+                              vpcMKrKGm: `Backend & API Architecture`,
+                              w7pPp8iwJ: `UI/UX & Design Systems`,
+                              width: `100%`,
+                            }),
+                          }),
+                        }),
+                      }),
+                    }),
+                    c(d.div, {
+                      className: `framer-15jzps5`,
+                      "data-framer-name": `Website-under-construction`,
+                      layout: N,
+                      children: c(T, {
+                        children: c(x, {
+                          className: `framer-fauxln-container`,
+                          "data-code-component-plugin-id": `84d4c1`,
+                          isAuthoredByUser: !0,
+                          nodeId: `q_U4A4YFT`,
+                          scopeId: `XGbLixgbp`,
+                          children: c(ye, {
+                            backgroundColor: `var(--token-d9ed1eb8-0c54-4136-bf85-5e5373c04bfa, rgb(255, 214, 80))`,
+                            direction: `left`,
+                            font: {
+                              fontFamily: `"Poppins Regular", "Poppins Regular Placeholder", sans-serif`,
+                              fontSize: `16px`,
+                              fontStyle: `normal`,
+                              fontWeight: 400,
+                              letterSpacing: `-0.01em`,
+                              lineHeight: `1em`,
+                            },
+                            fontSize: 16,
+                            gap: 22,
+                            height: `100%`,
+                            iconSize: 26,
+                            id: `q_U4A4YFT`,
+                            items: [
+                              {
+                                image: q(
+                                  {
+                                    pixelHeight: 72,
+                                    pixelWidth: 72,
+                                    src: `/images/icon-github.png?width=72&height=72`,
+                                  },
+                                  ``,
+                                ),
+                                label: `More Projects on GitHub`,
+                                link: `https://github.com/meshackrono10`,
+                                newTab: !0,
+                              },
+                              {
+                                image: q(
+                                  {
+                                    pixelHeight: 72,
+                                    pixelWidth: 72,
+                                    src: `/images/icon-twitter-x.png?width=72&height=72`,
+                                  },
+                                  ``,
+                                ),
+                                label: `More Updates on X / Twitter`,
+                                link: `https://github.com/meshackrono10`,
+                                newTab: !0,
+                              },
+                              {
+                                image: q(
+                                  {
+                                    pixelHeight: 72,
+                                    pixelWidth: 72,
+                                    src: `/images/icon-linkedin.png?width=72&height=72`,
+                                  },
+                                  ``,
+                                ),
+                                label: `Connect with me on LinkedIn`,
+                                link: `https://www.linkedin.com/in/meshackrono10/`,
+                                newTab: !1,
+                              },
+                            ],
+                            layoutId: `q_U4A4YFT`,
+                            pauseOnHover: !1,
+                            speed: 70,
+                            style: { height: `100%`, width: `100%` },
+                            textColor: `rgb(0, 0, 0)`,
+                            width: `100%`,
+                          }),
+                        }),
+                      }),
+                    }),
+                    s(d.div, {
+                      className: `framer-1i18bgq`,
+                      layout: N,
+                      children: [
+                        c(k, {
+                          __fromCanvasComponent: !0,
+                          children: c(t, {
+                            children: c(`h2`, {
+                              className: `framer-styles-preset-1wc8dab`,
+                              "data-styles-preset": `yVYr7T1im`,
+                              dir: `auto`,
+                              children: `Featured Work`,
+                            }),
+                          }),
+                          className: `framer-1hyzwrk`,
+                          fonts: [`Inter`],
+                          verticalAlignment: `top`,
+                          withExternalLayout: !0,
+                        }),
+                        c(`div`, {
+                          className: `framer-5em9n1`,
+                          children: c(de, {
+                            children: c(ut, {
+                              query: X(),
+                              children: (e, n, r) => {
+                                let i = e?.length ?? 0,
+                                  o = lt(i, 0);
+                                return s(a, {
+                                  children: [
+                                    e?.map(
+                                      (
+                                        {
+                                          id: e,
+                                          jDawn0KmC: n,
+                                          MHavgab9P: r,
+                                          qBtf4Z2oP: i,
+                                          qD3idoXBI: a,
+                                        },
+                                        o,
+                                      ) => (
+                                        (a ??= ``),
+                                        (i ??= ``),
+                                        (n ??= ``),
+                                        c(
+                                          ne,
+                                          {
+                                            id: `Dfb4gtGi5-${e}`,
+                                            children: c(le.Provider, {
+                                              value: { qD3idoXBI: a },
+                                              children: c(w, {
+                                                href: {
+                                                  pathVariables: {
+                                                    qD3idoXBI: a,
+                                                  },
+                                                  webPageId: `R3ke5TPEo`,
+                                                },
+                                                motionChild: !0,
+                                                nodeId: `nnVUBAdYi`,
+                                                scopeId: `XGbLixgbp`,
+                                                children: c(d.a, {
+                                                  className: `framer-uqeqdo framer-8wk15w`,
+                                                  children: s(`div`, {
+                                                    className: `framer-965625`,
+                                                    children: [
+                                                      c(b, {
+                                                        breakpoint: E,
+                                                        overrides: {
+                                                          i8qOlT7J_: {
+                                                            background: {
+                                                              alt: ``,
+                                                              fit: `fill`,
+                                                              loading: g(
+                                                                (p?.y || 0) +
+                                                                  0 +
+                                                                  2240.2 +
+                                                                  100 +
+                                                                  95.6 +
+                                                                  0 +
+                                                                  1472 +
+                                                                  0 +
+                                                                  0 +
+                                                                  0,
+                                                              ),
+                                                              sizes: `max(${p?.width || `100vw`} - 32px, 1px)`,
+                                                              ...Y(r),
+                                                            },
+                                                          },
+                                                          kt84ZUd0A: {
+                                                            background: {
+                                                              alt: ``,
+                                                              fit: `fill`,
+                                                              loading: g(
+                                                                (p?.y || 0) +
+                                                                  0 +
+                                                                  2311.1407 +
+                                                                  150 +
+                                                                  95.6 +
+                                                                  0 +
+                                                                  1472 +
+                                                                  0 +
+                                                                  0 +
+                                                                  0,
+                                                              ),
+                                                              sizes: `max(${p?.width || `100vw`} - 80px, 1px)`,
+                                                              ...Y(r),
+                                                            },
+                                                          },
+                                                          z9xgVwy_l: {
+                                                            background: {
+                                                              alt: ``,
+                                                              fit: `fill`,
+                                                              loading: g(
+                                                                (p?.y || 0) +
+                                                                  0 +
+                                                                  2481.1407 +
+                                                                  150 +
+                                                                  95.6 +
+                                                                  0 +
+                                                                  0 +
+                                                                  0 +
+                                                                  0,
+                                                              ),
+                                                              sizes: `max((${p?.width || `100vw`} - 120px) / 3, 1px)`,
+                                                              ...Y(r),
+                                                            },
+                                                          },
+                                                        },
+                                                        children: c(D, {
+                                                          background: {
+                                                            alt: ``,
+                                                            fit: `fill`,
+                                                            loading: g(
+                                                              (p?.y || 0) +
+                                                                0 +
+                                                                2421.1407 +
+                                                                150 +
+                                                                95.6 +
+                                                                0 +
+                                                                0 +
+                                                                0 +
+                                                                0,
+                                                            ),
+                                                            sizes: `max((${p?.width || `100vw`} - 120px) / 3, 1px)`,
+                                                            ...Y(r),
+                                                          },
+                                                          className: `framer-1vq2xz5`,
+                                                        }),
+                                                      }),
+                                                      c(`div`, {
+                                                        className: `framer-15posdq`,
+                                                        children: s(`div`, {
+                                                          className: `framer-83n0g9`,
+                                                          children: [
+                                                            c(k, {
+                                                              __fromCanvasComponent:
+                                                                !0,
+                                                              children: c(t, {
+                                                                children: c(
+                                                                  `p`,
+                                                                  {
+                                                                    className: `framer-styles-preset-2as7yh`,
+                                                                    "data-styles-preset": `lPwEKojoG`,
+                                                                    dir: `auto`,
+                                                                    children: `Titel`,
+                                                                  },
+                                                                ),
+                                                              }),
+                                                              className: `framer-cy7lmc`,
+                                                              fonts: [`Inter`],
+                                                              text: i,
+                                                              verticalAlignment: `top`,
+                                                              withExternalLayout:
+                                                                !0,
+                                                            }),
+                                                            c(k, {
+                                                              __fromCanvasComponent:
+                                                                !0,
+                                                              children: c(t, {
+                                                                children: c(
+                                                                  `p`,
+                                                                  {
+                                                                    className: `framer-styles-preset-x2q274`,
+                                                                    "data-styles-preset": `U2MfhGBrp`,
+                                                                    dir: `auto`,
+                                                                    children: `Titel`,
+                                                                  },
+                                                                ),
+                                                              }),
+                                                              className: `framer-93tt48`,
+                                                              fonts: [`Inter`],
+                                                              text: n,
+                                                              verticalAlignment: `top`,
+                                                              withExternalLayout:
+                                                                !0,
+                                                            }),
+                                                          ],
+                                                        }),
+                                                      }),
+                                                    ],
+                                                  }),
+                                                }),
+                                              }),
+                                            }),
+                                          },
+                                          e,
+                                        )
+                                      ),
+                                    ),
+                                    o !== !1 &&
+                                      c(`div`, {
+                                        className: `framer-1998rag`,
+                                        "data-border": !0,
+                                        "data-framer-name": `Empty State`,
+                                        children: c(k, {
+                                          __fromCanvasComponent: !0,
+                                          children: c(t, {
+                                            children: c(`p`, {
+                                              dir: `auto`,
+                                              style: {
+                                                "--framer-text-color": `rgb(153, 153, 153)`,
+                                              },
+                                              children: `No items`,
+                                            }),
+                                          }),
+                                          className: `framer-1wpf6c4`,
+                                          fonts: [`Inter`],
+                                          verticalAlignment: `top`,
+                                          withExternalLayout: !0,
+                                        }),
+                                      }),
+                                  ],
+                                });
+                              },
+                            }),
+                          }),
+                        }),
+                      ],
+                    }),
+                    c(d.div, {
+                      className: `framer-1we49f3`,
+                      "data-framer-name": `Get-in-touch`,
+                      layout: N,
+                      children: c(T, {
+                        children: c(x, {
+                          className: `framer-1gpsnvf-container`,
+                          "data-framer-name": `Get-In-Touch_Banner`,
+                          isAuthoredByUser: !0,
+                          name: `Get-In-Touch_Banner`,
+                          nodeId: `HfbQMCKG6`,
+                          scopeId: `XGbLixgbp`,
+                          children: c(R, {
+                            background: `rgb(202, 157, 241)`,
+                            color: `rgb(255, 255, 255)`,
+                            direction: `Left`,
+                            fadeEdges: !0,
+                            fadeWidth: 80,
+                            font: {
+                              fontFamily: `"Poppins Regular", "Poppins Regular Placeholder", sans-serif`,
+                              fontSize: `16px`,
+                              fontStyle: `normal`,
+                              fontWeight: 400,
+                              letterSpacing: `0em`,
+                              lineHeight: `1em`,
+                            },
+                            gap: 40,
+                            height: `100%`,
+                            icons: [
+                              c(d.div, {
+                                className: `framer-114675p`,
+                                "data-framer-name": `Get-In-Touch-Shape-1`,
+                                children: c(_, {
+                                  className: `framer-1tg0a6o`,
+                                  "data-framer-name": `Vector`,
+                                  opacity: 1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.85 29.85"><path d="M 15.896 0.345 C 15.331 -0.115 14.52 -0.115 13.955 0.345 L 12.737 1.339 C 12.354 1.651 11.844 1.76 11.366 1.631 L 9.853 1.222 C 9.151 1.032 8.411 1.362 8.083 2.011 L 7.368 3.425 C 7.145 3.864 6.725 4.171 6.238 4.248 L 4.683 4.494 C 3.967 4.608 3.427 5.207 3.39 5.932 L 3.308 7.526 C 3.283 8.017 3.025 8.465 2.613 8.734 L 1.283 9.601 C 0.677 9.995 0.429 10.76 0.688 11.435 L 1.26 12.931 C 1.435 13.388 1.381 13.902 1.115 14.313 L 0.246 15.655 C -0.146 16.262 -0.063 17.06 0.448 17.573 L 1.573 18.702 C 1.919 19.049 2.078 19.541 2.002 20.025 L 1.751 21.606 C 1.638 22.321 2.04 23.018 2.716 23.279 L 4.191 23.846 C 4.65 24.023 4.997 24.409 5.123 24.885 L 5.532 26.423 C 5.718 27.125 6.372 27.6 7.098 27.561 L 8.665 27.477 C 9.158 27.451 9.634 27.664 9.943 28.048 L 10.932 29.277 C 11.388 29.845 12.181 30.014 12.829 29.681 L 14.224 28.965 C 14.664 28.739 15.186 28.739 15.626 28.965 L 17.021 29.681 C 17.67 30.014 18.462 29.845 18.919 29.277 L 19.907 28.048 C 20.217 27.664 20.693 27.451 21.186 27.477 L 22.753 27.561 C 23.479 27.6 24.132 27.125 24.319 26.423 L 24.727 24.885 C 24.854 24.409 25.2 24.023 25.66 23.846 L 27.135 23.279 C 27.811 23.018 28.213 22.321 28.1 21.606 L 27.849 20.025 C 27.773 19.541 27.932 19.049 28.278 18.702 L 29.403 17.573 C 29.913 17.06 29.997 16.262 29.604 15.655 L 28.736 14.313 C 28.47 13.902 28.416 13.388 28.591 12.931 L 29.163 11.435 C 29.422 10.76 29.174 9.995 28.568 9.601 L 27.237 8.734 C 26.826 8.465 26.568 8.017 26.543 7.526 L 26.461 5.932 C 26.423 5.207 25.884 4.608 25.168 4.494 L 23.613 4.248 C 23.126 4.171 22.706 3.864 22.483 3.425 L 21.768 2.011 C 21.44 1.362 20.7 1.032 19.997 1.222 L 18.484 1.631 C 18.007 1.76 17.497 1.651 17.114 1.339 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  svgContentId: 10727552250,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              c(d.div, {
+                                className: `framer-hglj9u`,
+                                "data-framer-name": `Get-In-Touch-Shape-2`,
+                                children: c(_, {
+                                  className: `framer-z4ax6i`,
+                                  requiresOverflowVisible: !1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.924 29.924" overflow="visible"><path d="M 13.893 0 L 16.031 0 L 16.031 9.464 L 19.576 0.689 L 21.558 1.49 L 17.92 10.492 L 24.786 3.627 L 26.297 5.138 L 19.717 11.718 L 28.244 7.992 L 29.1 9.951 L 20.077 13.893 L 29.924 13.893 L 29.924 16.031 L 20.077 16.031 L 29.1 19.973 L 28.244 21.931 L 19.717 18.206 L 26.297 24.786 L 24.786 26.297 L 17.92 19.432 L 21.558 28.434 L 19.576 29.235 L 16.031 20.46 L 16.031 29.924 L 13.893 29.924 L 13.893 20.46 L 10.348 29.235 L 8.366 28.434 L 12.003 19.432 L 5.138 26.297 L 3.627 24.786 L 10.207 18.206 L 1.679 21.931 L 0.824 19.973 L 9.846 16.031 L 0 16.031 L 0 13.893 L 9.847 13.893 L 0.824 9.951 L 1.679 7.992 L 10.207 11.718 L 3.627 5.138 L 5.138 3.627 L 12.003 10.492 L 8.366 1.49 L 10.348 0.689 L 13.893 9.464 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              c(d.div, {
+                                className: `framer-8ysah8`,
+                                "data-framer-name": `Get-In-Touch-Shape-3`,
+                                children: c(_, {
+                                  className: `framer-16a10wi`,
+                                  "data-framer-name": `Vector`,
+                                  opacity: 1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 29"><path d="M 13.457 0.059 C 18.374 -0.603 21.034 2.102 21.186 6.86 C 23.281 6.264 24.872 6.034 26.901 7.177 C 28.316 7.973 29.35 9.301 29.77 10.863 C 30.733 14.538 28.581 17.547 24.991 18.461 C 25.842 19.821 26.426 20.9 26.503 22.538 C 26.578 24.229 25.966 25.879 24.803 27.115 C 22.249 29.874 18.644 29.5 16.003 27.083 L 14.995 25.855 C 12.787 28.52 9.719 30.017 6.438 28.133 C 4.986 27.3 3.939 25.913 3.539 24.295 C 2.969 21.993 3.72 20.409 4.857 18.525 C 3.289 17.909 1.428 16.911 0.733 15.412 C -1.29 11.046 1 6.524 6.052 6.418 C 6.713 6.405 8.314 6.676 8.707 6.465 C 8.913 2.908 10.381 1.443 13.457 0.059 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  svgContentId: 10161200620,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              c(d.div, {
+                                className: `framer-nchofj`,
+                                "data-framer-name": `Get-In-Touch-Shape-4`,
+                                children: c(_, {
+                                  className: `framer-92mao4`,
+                                  "data-framer-name": `Vector`,
+                                  opacity: 1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.85 29.85"><path d="M 8.834 0.027 C 10.147 -0.03 11.898 0.021 13.239 0.021 L 21.243 0.027 C 24.161 2.851 27.123 5.909 30 8.79 L 29.999 21.21 C 27.258 24.08 24.062 27.166 21.237 29.975 C 19.847 30.023 18.253 29.987 16.841 29.988 L 8.824 29.982 C 7.906 29.175 6.638 27.829 5.75 26.939 L 0.03 21.213 C -0.028 19.804 0.016 18.063 0.016 16.63 L 0.026 8.792 L 5.827 2.982 C 6.561 2.248 8.09 0.634 8.834 0.027 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  svgContentId: 11420852403,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              c(d.div, {
+                                className: `framer-1n6hb3i`,
+                                "data-framer-name": `Get-In-Touch-Shape-5`,
+                                children: c(_, {
+                                  className: `framer-bi0iae`,
+                                  requiresOverflowVisible: !1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" overflow="visible"><path d="M 17.734 0 L 18.497 5.763 L 22.942 1.923 L 21.512 7.676 C 23.23 7.005 25.257 6.35 27.016 5.733 L 23.682 10.545 L 29.508 10.725 L 24.625 14.009 C 26.4 14.732 28.231 15.549 30 16.306 L 24.294 17.614 C 25.691 18.904 27.121 20.34 28.493 21.671 C 26.564 21.404 24.636 21.119 22.712 20.817 C 23.533 22.579 24.333 24.35 25.113 26.131 L 20.079 23.256 C 20.186 25.235 20.314 27.213 20.464 29.19 L 17.389 25.348 L 17.034 24.956 L 16.738 25.024 C 16.182 25.893 15.353 28.866 14.996 30 C 14.361 28.483 13.71 26.182 13.202 24.559 L 9.553 29.073 L 9.841 23.248 L 4.817 26.135 L 7.189 20.821 L 1.455 21.677 L 5.548 17.638 C 4.124 17.176 1.537 16.669 0 16.322 C 1.61 15.522 3.585 14.735 5.26 14.02 C 3.793 12.938 1.909 11.747 0.372 10.715 L 6.282 10.553 L 2.905 5.752 C 4.594 6.245 6.7 7.042 8.396 7.63 C 7.974 5.745 7.47 3.79 7.013 1.905 C 8.409 3.181 10.032 4.511 11.48 5.749 C 11.681 4.046 11.89 1.75 12.24 0.121 C 12.803 0.899 14.346 3.898 14.999 5.019 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                              c(d.div, {
+                                className: `framer-1szcrmq`,
+                                "data-framer-name": `Get-In-Touch-Shape-6`,
+                                children: c(_, {
+                                  className: `framer-1aqlglw`,
+                                  requiresOverflowVisible: !1,
+                                  svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" overflow="visible"><path d="M 15 26.061 C 3.655 35.542 -5.542 26.345 3.939 15 C -5.542 3.655 3.655 -5.542 15 3.939 C 26.343 -5.542 35.542 3.655 26.061 15 C 35.542 26.337 26.343 35.542 15 26.061 Z" fill="rgb(255, 255, 255)"></path></svg>`,
+                                  withExternalLayout: !0,
+                                }),
+                              }),
+                            ],
+                            id: `HfbQMCKG6`,
+                            layoutId: `HfbQMCKG6`,
+                            name: `Get-In-Touch_Banner`,
+                            pauseOnHover: !0,
+                            speed: 3,
+                            style: { height: `100%` },
+                            text: `Get in touch — let's build something great together.`,
+                            width: `100%`,
+                          }),
+                        }),
+                      }),
+                    }),
+                    s(d.div, {
+                      className: `framer-fqj6qc`,
+                      "data-framer-name": `Get-In-Touch`,
+                      layout: N,
+                      children: [
+                        c(`div`, {
+                          className: `framer-1s9p2x3`,
+                          id: I,
+                          ref: L,
+                          children: c(T, {
+                            children: c(x, {
+                              className: `framer-rppnwi-container`,
+                              isAuthoredByUser: !0,
+                              nodeId: `HVJRj9_aG`,
+                              scopeId: `XGbLixgbp`,
+                              children: c(b, {
+                                breakpoint: E,
+                                overrides: {
+                                  i8qOlT7J_: {
+                                    font: {
+                                      fontFamily: `"Magiel", "Magiel Placeholder", sans-serif`,
+                                      fontSize: `80px`,
+                                      fontStyle: `normal`,
+                                      fontWeight: 900,
+                                      letterSpacing: `0.07em`,
+                                      lineHeight: `0.9em`,
+                                    },
+                                  },
+                                  kt84ZUd0A: {
+                                    font: {
+                                      fontFamily: `"Magiel", "Magiel Placeholder", sans-serif`,
+                                      fontSize: `155px`,
+                                      fontStyle: `normal`,
+                                      fontWeight: 900,
+                                      letterSpacing: `0.07em`,
+                                      lineHeight: `0.9em`,
+                                    },
+                                  },
+                                },
+                                children: c(B, {
+                                  align: `center`,
+                                  as: `h2`,
+                                  bottomLeft: `T`,
+                                  bottomRight: `UCH`,
+                                  emailAddress: `meshackrono05@gmail.com`,
+                                  emailBody: ``,
+                                  emailSubject: ``,
+                                  font: {
+                                    fontFamily: `"Magiel Black", "Magiel Black Placeholder", sans-serif`,
+                                    fontSize: `205px`,
+                                    fontStyle: `normal`,
+                                    fontWeight: 900,
+                                    letterSpacing: `0.07em`,
+                                    lineHeight: `0.9em`,
+                                  },
+                                  gap: 0.07,
+                                  height: `100%`,
+                                  id: `HVJRj9_aG`,
+                                  layoutId: `HVJRj9_aG`,
+                                  mobileBreakpoint: 768,
+                                  openInNewTab: !1,
+                                  rotateDuration: 2.45,
+                                  shapeImage: `/images/service-workplace-new-work.png?width=706&height=706`,
+                                  shapeOffsetX: -0.02,
+                                  shapeOffsetY: 0.12,
+                                  shapeScale: 0.72,
+                                  showHoverOnMobile: !0,
+                                  showHoverOnTablet: !0,
+                                  tabletBreakpoint: 1024,
+                                  textColor: `rgb(0, 0, 0)`,
+                                  textTransform: `uppercase`,
+                                  topText: `GET IN`,
+                                  underlineColor: `rgb(0, 0, 0)`,
+                                  underlineOffset: 13,
+                                  underlineThickness: 9,
+                                  width: `100%`,
+                                  widthMode: `fit-content`,
+                                }),
+                              }),
+                            }),
+                          }),
+                        }),
+                        c(`div`, {
+                          className: `framer-m5234`,
+                          children: c(_, {
+                            className: `framer-7k22ar`,
+                            "data-framer-name": `Vector 108`,
+                            fill: `rgba(0,0,0,1)`,
+                            intrinsicHeight: 116,
+                            intrinsicWidth: 2688,
+                            svg: `<svg width="2688" height="116" viewBox="-21 -21 2688 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M45.2157 28.2843L0 73.5H2646L2600.78 28.2843C2585.16 12.6633 2559.84 12.6633 2544.22 28.2843L2527.28 45.2157C2511.66 60.8367 2486.34 60.8367 2470.72 45.2157L2453.78 28.2843C2438.16 12.6633 2412.84 12.6633 2397.22 28.2843L2380.28 45.2157C2364.66 60.8367 2339.34 60.8367 2323.72 45.2157L2306.78 28.2843C2291.16 12.6633 2265.84 12.6633 2250.22 28.2843L2233.28 45.2157C2217.66 60.8367 2192.34 60.8367 2176.72 45.2157L2159.78 28.2843C2144.16 12.6633 2118.84 12.6633 2103.22 28.2843L2086.28 45.2157C2070.66 60.8367 2045.34 60.8367 2029.72 45.2157L2012.78 28.2843C1997.16 12.6633 1971.84 12.6633 1956.22 28.2843L1939.28 45.2157C1923.66 60.8367 1898.34 60.8367 1882.72 45.2157L1865.78 28.2843C1850.16 12.6633 1824.84 12.6633 1809.22 28.2843L1792.28 45.2157C1776.66 60.8367 1751.34 60.8367 1735.72 45.2157L1718.78 28.2843C1703.16 12.6633 1677.84 12.6633 1662.22 28.2843L1645.28 45.2157C1629.66 60.8367 1604.34 60.8367 1588.72 45.2157L1571.78 28.2843C1556.16 12.6633 1530.84 12.6633 1515.22 28.2843L1498.28 45.2157C1482.66 60.8367 1457.34 60.8367 1441.72 45.2157L1424.78 28.2843C1409.16 12.6633 1383.84 12.6633 1368.22 28.2843L1351.28 45.2157C1335.66 60.8367 1310.34 60.8367 1294.72 45.2157L1277.78 28.2843C1262.16 12.6633 1236.84 12.6633 1221.22 28.2843L1204.28 45.2157C1188.66 60.8367 1163.34 60.8367 1147.72 45.2157L1130.78 28.2843C1115.16 12.6633 1089.84 12.6633 1074.22 28.2843L1057.28 45.2157C1041.66 60.8367 1016.34 60.8367 1000.72 45.2157L983.784 28.2843C968.163 12.6633 942.837 12.6633 927.216 28.2843L910.284 45.2157C894.663 60.8367 869.337 60.8367 853.716 45.2157L836.784 28.2843C821.163 12.6633 795.837 12.6633 780.216 28.2843L763.284 45.2157C747.663 60.8367 722.337 60.8367 706.716 45.2157L689.784 28.2843C674.163 12.6633 648.837 12.6633 633.216 28.2843L616.284 45.2157C600.663 60.8367 575.337 60.8367 559.716 45.2157L542.784 28.2843C527.163 12.6633 501.837 12.6633 486.216 28.2843L469.284 45.2157C453.663 60.8367 428.337 60.8367 412.716 45.2157L395.784 28.2843C380.163 12.6633 354.837 12.6633 339.216 28.2843L322.284 45.2157C306.663 60.8367 281.337 60.8367 265.716 45.2157L248.784 28.2843C233.163 12.6633 207.837 12.6633 192.216 28.2843L175.284 45.2157C159.663 60.8367 134.337 60.8367 118.716 45.2157L101.784 28.2843C86.1633 12.6633 60.8367 12.6633 45.2157 28.2843Z" fill="black" stroke="black" stroke-width="41"/>
+</svg>
+`,
+                            withExternalLayout: !0,
+                          }),
+                        }),
+                      ],
+                    }),
+                    c(b, {
+                      breakpoint: E,
+                      overrides: {
+                        i8qOlT7J_: {
+                          height: 1063,
+                          y: (p?.y || 0) + 0 + 5840.8,
+                        },
+                        kt84ZUd0A: { y: (p?.y || 0) + 0 + 5961.7407 },
+                        z9xgVwy_l: { y: (p?.y || 0) + 0 + 4699.7407 },
+                      },
+                      children: c(T, {
+                        height: 1e3,
+                        width: p?.width || `100vw`,
+                        y: (p?.y || 0) + 0 + 4639.7407,
+                        children: c(x, {
+                          className: `framer-1jns3t7-container`,
+                          id: z,
+                          layout: N,
+                          nodeId: `NhN_dOXH7`,
+                          ref: V,
+                          scopeId: `XGbLixgbp`,
+                          children: c(b, {
+                            breakpoint: E,
+                            overrides: {
+                              i8qOlT7J_: {
+                                style: { width: `100%` },
+                                variant: J(`TaC6yX4vc`),
+                              },
+                              kt84ZUd0A: { variant: J(`BQwAMMHJ0`) },
+                            },
+                            children: c(j, {
+                              height: `100%`,
+                              id: `NhN_dOXH7`,
+                              layoutId: `NhN_dOXH7`,
+                              style: { height: `100%`, width: `100%` },
+                              variant: J(`pDyOQ4hPB`),
+                              width: `100%`,
+                            }),
+                          }),
+                        }),
+                      }),
+                    }),
+                    c(b, {
+                      breakpoint: E,
+                      overrides: { i8qOlT7J_: { width: `100vw` } },
+                      children: c(T, {
+                        height: 157,
+                        width: p?.width || `100vw`,
+                        y: 0,
+                        children: c(b, {
+                          breakpoint: E,
+                          overrides: { i8qOlT7J_: { transformTemplate: dt } },
+                          children: c(x, {
+                            className: `framer-j6jgdp-container`,
+                            layout: N,
+                            layoutScroll: !0,
+                            nodeId: `vRYNLg_M2`,
+                            rendersWithMotion: !0,
+                            scopeId: `XGbLixgbp`,
+                            children: c(b, {
+                              breakpoint: E,
+                              overrides: {
+                                i8qOlT7J_: {
+                                  __framer__targets: [
+                                    {
+                                      offset: 120,
+                                      ref: V,
+                                      target: `xw8qZPiB6`,
+                                    },
+                                  ],
+                                  style: { width: `100%` },
+                                  variant: J(`e2EBMhbK1`),
+                                },
+                                kt84ZUd0A: { variant: J(`odgx648EJ`) },
+                              },
+                              children: c(Qe, {
+                                __framer__animateOnce: !1,
+                                __framer__targets: [
+                                  { offset: 120, ref: V, target: `ZroOE0Oai` },
+                                ],
+                                __framer__threshold: 0,
+                                __framer__variantAppearEffectEnabled: !0,
+                                height: `100%`,
+                                id: `vRYNLg_M2`,
+                                layoutId: `vRYNLg_M2`,
+                                style: { height: `100%`, width: `100%` },
+                                variant: J(`kEbS4L7fD`),
+                                width: `100%`,
+                              }),
+                            }),
+                          }),
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+                c(`div`, { id: `overlay` }),
+              ],
+            }),
+          })
+        );
+      }),
+      [
+        `.framer-VSKDW.framer-8wk15w, .framer-VSKDW .framer-8wk15w { display: block; }`,
+        `.framer-VSKDW.framer-ak8hk5 { align-content: center; align-items: center; background-color: #000000; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-VSKDW .framer-une7na { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: center; overflow: visible; padding: 200px 40px 130px 40px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-11bq0hp { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: flex-start; max-width: 100%; padding: 20px 0px 0px 0px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-uy0kbz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 4px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px 0px 30px 0px; position: relative; text-decoration: none; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-VSKDW .framer-1thechi { flex: none; height: 30px; position: relative; width: 30px; }`,
+        `.framer-VSKDW .framer-13w0dgz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-1dal676 { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-VSKDW .framer-8xp6k2 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: auto; justify-content: flex-end; overflow: visible; padding: 0px; position: relative; width: 1px; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-VSKDW .framer-1e9sfth { aspect-ratio: 1 / 1; bottom: -56px; flex: none; overflow: visible; position: absolute; right: -170px; top: -80px; width: auto; z-index: 1; }`,
+        `.framer-VSKDW .framer-16ccvox { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px 40px 0px 0px; position: relative; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-VSKDW .framer-1l47zhg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-end; overflow: visible; padding: 0px; position: relative; width: 80%; }`,
+        `.framer-VSKDW .framer-usej8k { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-VSKDW .framer-sb0dk0 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 80%; }`,
+        `.framer-VSKDW .framer-wtk4f6 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 428px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-VSKDW .framer-upka2l-container { flex: none; height: 38px; position: relative; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-VSKDW .framer-d7o00i { background-color: #ffffff; border-bottom-left-radius: 100%; border-bottom-right-radius: 100%; border-top-left-radius: 100%; border-top-right-radius: 100%; height: 5px; position: relative; width: 5px; }`,
+        `.framer-VSKDW .framer-1dl7zad { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 130px 0px 130px 40px; position: relative; width: 100%; will-change: var(--framer-will-change-effect-override, transform); }`,
+        `.framer-VSKDW .framer-q3s693-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; z-index: 0; }`,
+        `.framer-VSKDW .framer-mye7ks-container { flex: none; height: 53px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-cxz9l1-container { flex: none; height: 100.09407337723424vh; position: relative; scroll-margin-top: 20px; width: 100%; }`,
+        `.framer-VSKDW .framer-15jzps5 { flex: none; height: 40px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-fauxln-container { bottom: 0px; flex: none; left: 0px; position: absolute; right: 0px; top: 0px; }`,
+        `.framer-VSKDW .framer-1i18bgq { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 150px 40px 150px 40px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-1hyzwrk, .framer-VSKDW .framer-cy7lmc, .framer-VSKDW .framer-93tt48 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-VSKDW .framer-5em9n1 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-uqeqdo { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; padding: 0px; position: relative; text-decoration: none; width: 1px; }`,
+        `.framer-VSKDW .framer-965625 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-VSKDW .framer-1vq2xz5 { flex: none; height: 50vh; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 100%; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-VSKDW .framer-15posdq { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-83n0g9 { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 4px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1px; }`,
+        `.framer-VSKDW .framer-1998rag { --border-bottom-width: 1px; --border-color: rgba(136, 136, 136, 0.2); --border-left-width: 1px; --border-right-width: 1px; --border-style: dashed; --border-top-width: 1px; align-content: center; align-items: center; background-color: rgba(204, 204, 204, 0.2); border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100px; justify-content: center; min-height: 100%; min-width: 100%; padding: 10px; position: relative; width: min-content; }`,
+        `.framer-VSKDW .framer-1wpf6c4 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-VSKDW .framer-1we49f3 { flex: none; height: 37px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-1gpsnvf-container { flex: none; height: 38px; left: 50%; position: absolute; top: 49%; transform: translate(-50%, -50%); width: auto; }`,
+        `.framer-VSKDW .framer-114675p, .framer-VSKDW .framer-hglj9u, .framer-VSKDW .framer-8ysah8, .framer-VSKDW .framer-nchofj, .framer-VSKDW .framer-1n6hb3i { height: 30px; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 30px; }`,
+        `.framer-VSKDW .framer-1tg0a6o, .framer-VSKDW .framer-92mao4 { flex: none; height: 30px; left: 0px; position: absolute; top: 0px; width: 30px; }`,
+        `.framer-VSKDW .framer-z4ax6i, .framer-VSKDW .framer-bi0iae, .framer-VSKDW .framer-1aqlglw { height: 30px; left: 0px; position: absolute; top: 0px; width: 30px; }`,
+        `.framer-VSKDW .framer-16a10wi { flex: none; height: 29px; left: 0px; position: absolute; top: 0px; width: 30px; }`,
+        `.framer-VSKDW .framer-1szcrmq { aspect-ratio: 0.9950248756218906 / 1; height: auto; overflow: var(--overflow-clip-fallback, clip); position: relative; width: 30px; }`,
+        `.framer-VSKDW .framer-fqj6qc { align-content: center; align-items: center; background-color: var(--token-d9ed1eb8-0c54-4136-bf85-5e5373c04bfa, #ffd650); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100vh; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-1s9p2x3 { align-content: center; align-items: center; background-color: var(--token-d9ed1eb8-0c54-4136-bf85-5e5373c04bfa, #ffd650); display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 1px; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; scroll-margin-top: 20px; width: 100%; }`,
+        `.framer-VSKDW .framer-rppnwi-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-VSKDW .framer-m5234 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: 113px; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 2600px; }`,
+        `.framer-VSKDW .framer-7k22ar { flex: none; height: 116px; position: relative; width: 100%; }`,
+        `.framer-VSKDW .framer-1jns3t7-container { flex: none; height: 100vh; position: relative; scroll-margin-top: 120px; width: 100%; }`,
+        `.framer-VSKDW .framer-j6jgdp-container { flex: none; height: 157px; left: 0px; position: fixed; right: 0px; top: 0px; z-index: 1; }`,
+        ...Fe,
+        ...xe,
+        ...ke,
+        ...V,
+        `.framer-VSKDW[data-border="true"]::after, .framer-VSKDW [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-VSKDW.framer-ak8hk5 { width: 810px; } .framer-VSKDW .framer-1l47zhg, .framer-VSKDW .framer-sb0dk0 { width: 100%; } .framer-VSKDW .framer-1dl7zad { padding: 110px 0px 40px 40px; } .framer-VSKDW .framer-5em9n1 { flex-direction: column; } .framer-VSKDW .framer-uqeqdo { flex: none; width: 100%; } .framer-VSKDW .framer-1vq2xz5 { height: 40vh; }}`,
+        `@media (max-width: 809.98px) { .framer-VSKDW.framer-ak8hk5 { width: 390px; } .framer-VSKDW .framer-une7na { order: 0; padding: 200px 16px 80px 16px; } .framer-VSKDW .framer-11bq0hp, .framer-VSKDW .framer-16ccvox { padding: 0px; } .framer-VSKDW .framer-uy0kbz { padding: 0px 0px 20px 0px; } .framer-VSKDW .framer-1dal676 { max-width: 90%; } .framer-VSKDW .framer-1e9sfth { bottom: -33px; right: -70px; top: -26px; } .framer-VSKDW .framer-1l47zhg, .framer-VSKDW .framer-wtk4f6 { width: 100%; } .framer-VSKDW .framer-sb0dk0 { flex-direction: column; width: 100%; } .framer-VSKDW .framer-upka2l-container { order: 2; } .framer-VSKDW .framer-1dl7zad { flex-direction: column; order: 3; padding: 80px 0px 80px 16px; } .framer-VSKDW .framer-q3s693-container, .framer-VSKDW .framer-uqeqdo { flex: none; width: 100%; } .framer-VSKDW .framer-mye7ks-container { order: 4; } .framer-VSKDW .framer-cxz9l1-container { height: 100vh; order: 5; } .framer-VSKDW .framer-15jzps5 { order: 6; } .framer-VSKDW .framer-1i18bgq { order: 7; padding: 100px 16px 150px 16px; } .framer-VSKDW .framer-5em9n1 { flex-direction: column; } .framer-VSKDW .framer-1vq2xz5 { height: 40vh; } .framer-VSKDW .framer-83n0g9 { justify-content: flex-start; order: 0; } .framer-VSKDW .framer-1we49f3 { order: 8; } .framer-VSKDW .framer-fqj6qc { order: 9; } .framer-VSKDW .framer-1jns3t7-container { height: auto; order: 10; } .framer-VSKDW .framer-j6jgdp-container { height: auto; left: 50%; order: 11; right: unset; transform: translateX(-50%); width: 100%; z-index: 10; }}`,
+        `@media (min-width: 1920px) { .framer-VSKDW.framer-ak8hk5 { width: 1920px; } .framer-VSKDW .framer-une7na { align-content: flex-start; align-items: flex-start; padding: 200px 40px 160px 40px; } .framer-VSKDW .framer-16ccvox { padding: 0px; width: 1400px; } .framer-VSKDW .framer-1l47zhg, .framer-VSKDW .framer-sb0dk0 { width: 100%; } .framer-VSKDW .framer-1dl7zad { padding: 160px 0px 130px 40px; }}`,
+      ],
+      `framer-VSKDW`,
+    )),
+    (Q.displayName = `Event Brand Experiences 2`),
+    (Q.defaultProps = { height: 5380, width: 1200 }),
+    me(
+      Q,
+      [
+        {
+          explicitInter: !0,
+          fonts: [
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
+              url: `/fonts/inter-400.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
+              url: `/fonts/inter-400-2.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+1F00-1FFF`,
+              url: `/fonts/inter-400-3.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0370-03FF`,
+              url: `/fonts/inter-400-4.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
+              url: `/fonts/inter-400-5.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+              url: `/fonts/inter-400-6.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Inter`,
+              source: `framer`,
+              style: `normal`,
+              uiFamilyName: `Inter`,
+              unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
+              url: `/fonts/inter-400-7.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Poppins Regular`,
+              source: `custom`,
+              style: `normal`,
+              uiFamilyName: `Poppins`,
+              url: `/fonts/poppins-regular.woff2`,
+              weight: `400`,
+            },
+            {
+              cssFamilyName: `Magiel Black`,
+              source: `custom`,
+              style: `normal`,
+              uiFamilyName: `Magiel`,
+              url: `/fonts/magiel-black.woff2`,
+              weight: `900`,
+            },
+            {
+              cssFamilyName: `Magiel`,
+              source: `builtIn`,
+              style: `normal`,
+              uiFamilyName: `Magiel`,
+              url: `/fonts/magiel.woff`,
+              weight: `900`,
+            },
+          ],
+        },
+        ...He,
+        ...We,
+        ...Ge,
+        ...Ke,
+        ...qe,
+        ...Je,
+        ...Ye,
+        ...Xe,
+        ...Ze,
+        ...h(Ie),
+        ...h(Se),
+        ...h(Ae),
+        ...h(N),
+      ],
+      { supportsExplicitInterCodegen: !0 },
+    ),
+    (Q.loader = {
+      load: (e, t) => {
+        let n = t.locale,
+          r = y.get(X(), n);
+        return Promise.allSettled([
+          r.preload(),
+          f(H, {}, t),
+          f(j, {}, t),
+          f(z, {}, t),
+        ]);
+      },
+    }),
+    ($ = {
+      exports: {
+        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
+        default: {
+          type: `reactComponent`,
+          name: `FramerXGbLixgbp`,
+          slots: [],
+          annotations: {
+            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"kt84ZUd0A":{"layout":["fixed","auto"]},"i8qOlT7J_":{"layout":["fixed","auto"]},"z9xgVwy_l":{"layout":["fixed","auto"]}}}`,
+            framerComponentViewportWidth: `true`,
+            framerIntrinsicHeight: `5380`,
+            framerContractVersion: `1`,
+            framerScrollSections: `{"Yu2xEfOf_":{"pattern":":Yu2xEfOf_","name":"service-02-dark"},"r1KpbDqeC":{"pattern":":r1KpbDqeC","name":"get-in-touch-dark"},"NhN_dOXH7":{"pattern":":NhN_dOXH7","name":"footer-light"}}`,
+            framerDisplayContentsDiv: `false`,
+            framerAcceptsLayoutTemplate: `true`,
+            framerResponsiveScreen: `true`,
+            framerColorSyntax: `true`,
+            framerImmutableVariables: `true`,
+            framerAutoSizeImages: `true`,
+            framerIntrinsicWidth: `1200`,
+            framerLayoutTemplateFlowEffect: `true`,
+          },
+        },
+        queryParamNames: {
+          type: `variable`,
+          annotations: { framerContractVersion: `1` },
+        },
+        __FramerMetadata__: { type: `variable` },
+      },
+    }));
+})();
+export { $ as __FramerMetadata__, Q as default, et as queryParamNames };
+//# sourceMappingURL=page-service-interior-design.mjs.map

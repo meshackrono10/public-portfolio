@@ -1,0 +1,80 @@
+/* ==========================================================================
+   PORTFOLIO CUSTOM STYLESHEET (EDIT HERE!)
+   --------------------------------------------------------------------------
+   Friends & Collaborators:
+   Use this file to customize colors, fonts, margins, card layouts, titles,
+   and spacing without having to dig through Framer's compiled classes.
+   All styles here have priority and take effect immediately on reload!
+   ========================================================================== */
+
+/* 1. GLOBAL THEME VARIABLES & ACCENT COLORS */
+:root {
+  --portfolio-accent: #ff4d00;          /* Main orange/accent color */
+  --portfolio-accent-hover: #ff6a2b;    /* Hover accent color */
+  --portfolio-bg: #000000;              /* Main background */
+  --portfolio-card-bg: #141414;         /* Card background */
+  --portfolio-text-primary: #ffffff;    /* Primary headline color */
+  --portfolio-text-secondary: #999999;  /* Subtitles / description color */
+  --portfolio-font: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 2. BODY & GENERAL TYPOGRAPHY */
+body {
+  font-family: var(--portfolio-font) !important;
+  background-color: var(--portfolio-bg) !important;
+  color: var(--portfolio-text-primary) !important;
+}
+
+/* 3. HERO & HEADINGS EDITING */
+/* Customize the main hero headlines and titles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--portfolio-text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* 4. WORK / PROJECT CARDS */
+/* Easily adjust project cards, hover effects, and borders */
+[data-framer-name="Item"],
+[data-framer-name="Card"] {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+[data-framer-name="Item"]:hover,
+[data-framer-name="Card"]:hover {
+  /* Uncomment to enable slight scale or lift on hover */
+  /* transform: translateY(-4px); */
+}
+
+/* 5. NAVIGATION BAR & LINKS */
+nav a, header a {
+  transition: color 0.2s ease;
+}
+
+nav a:hover, header a:hover {
+  color: var(--portfolio-accent) !important;
+}
+
+/* 6. BUTTONS & CALL-TO-ACTIONS */
+button, .framer-button {
+  cursor: pointer;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover, .framer-button:hover {
+  opacity: 0.9;
+}
+
+/* 7. FOOTER & SOCIAL LINKS */
+footer {
+  border-top: 1px solid #222222;
+}
+
+footer a:hover {
+  color: var(--portfolio-accent) !important;
+}
+
+/* 8. QUICK HELP FOR FRIENDS:
+   - To change font: edit @font-face in css/fonts.css or update --portfolio-font above.
+   - To change project images: replace files in /images/<filename>.webp
+   - To tweak home layout: edit css/main.css or add rules right here in css/custom.css!
+*/

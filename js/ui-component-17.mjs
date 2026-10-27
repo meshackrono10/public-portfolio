@@ -1,0 +1,2 @@
+import{t as e}from"./runtime.mjs";import{U as t,k as n}from"./framer.mjs";var r,i,a,o=e((()=>{t(),n.loadFonts([]),r=[{explicitInter:!0,fonts:[]}],i=[`.framer-C7TQy .framer-styles-preset-1nk7zg8:not(.rich-text-wrapper), .framer-C7TQy .framer-styles-preset-1nk7zg8.rich-text-wrapper a { --framer-link-text-color: #000000; --framer-link-text-decoration: underline; --framer-link-text-decoration-offset: 2px; --framer-link-text-decoration-thickness: 1px; }`],a=`framer-C7TQy`}));export{o as i,i as n,r,a as t};
+//# sourceMappingURL=ui-component-17.mjs.map

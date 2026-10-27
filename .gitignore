@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.npm
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.sync_cache.json
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
