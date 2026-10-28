@@ -2,9 +2,11 @@
   "name": "meshack-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Standalone HTML, CSS, and JavaScript portfolio",
+  "description": "Standalone HTML, CSS, and JavaScript portfolio template",
   "scripts": {
     "start": "npx serve -l 3000",
-    "dev": "npx serve -l 3000"
+    "dev": "npx serve -l 3000",
+    "build": "node sync.js",
+    "sync": "node sync.js"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Meshack Rono",
+    "shortName": "Meshack",
+    "title": "Software Engineer & Full-Stack Developer",
+    "tagline": "Building scalable web applications, cloud APIs, and interactive UI/UX experiences",
+    "email": "meshackrono05@gmail.com",
+    "location": "Nairobi, Kenya"
+  },
+  "hero": {
+    "headline": "MESHACK — Building",
+    "rotatingKeywords": [
+      "clean frontend architecture",
+      "high-performance software",
+      "seamless digital products"
+    ]
+  },
+  "socials": {
+    "github": "https://github.com/meshackrono10",
+    "linkedin": "https://www.linkedin.com/in/meshackrono10/",
+    "instagram": "https://www.instagram.com/m.esh_ac/",
+    "email": "mailto:meshackrono05@gmail.com"
+  },
+  "meta": {
+    "title": "MESHACK — Software Engineer & Full-Stack Developer",
+    "description": "Software Engineer & Full-Stack Developer based in Nairobi, Kenya. Building scalable web applications, cloud APIs, and interactive UI/UX experiences.",
+    "url": "https://meshack.dev",
+    "ogImage": "/media/og-social-banner.jpg",
+    "favicon": "/images/favicon.svg"
+  }
+}

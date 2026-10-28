@@ -1,88 +1,116 @@
-# Meshack's Portfolio Website
+# Meshack's Portfolio Template
 
-A high-performance, fully standalone portfolio website built with pure **HTML, CSS, and JavaScript** — with **zero backend, zero Python, and zero external cloud dependencies**.
+A high-performance, modular portfolio website and template engine built with pure **HTML, CSS, and JavaScript**.
 
-All 58 webfonts, 190+ images, and showcase videos are hosted 100% locally. The site retains the full authentic interactive UI, Framer Motion spring physics animations, and responsive layouts.
+All content is managed through clean, isolated JSON files in the **[`content/`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content)** directory. Anyone can customize text, add new projects, update services, or edit pages without touching complex code.
 
 ---
 
-## 🚀 How to Run Locally (Zero Python Needed)
+## 🎨 Modular Content Structure (`content/`)
 
-### Method 1: VS Code Live Server (Easiest)
-1. Open this folder in **VS Code**.
-2. Right-click [`index.html`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/index.html) and select **"Open with Live Server"** (or click **"Go Live"** at the bottom-right bar).
-3. The site opens automatically in your browser.
+Every project, service, and page has its own dedicated JSON file for effortless editing:
 
-### Method 2: Node / Any Static Server
-If you have Node.js installed:
-```bash
-npx serve -l 3000
+```text
+content/
+├── site.json                        # Global author info, metadata & SEO
+├── navigation.json                  # Navbar brand & menu links
+├── footer.json                      # Footer email, location, socials & copyright
+├── pages/
+│   ├── home.json                    # Homepage hero, rotating keywords & CTA
+│   ├── about.json                   # About bio paragraphs, stats & skills
+│   ├── work.json                    # Showcase header & filter categories
+│   └── privacy-policy.json          # Privacy policy page
+├── projects/                        # Dedicated file for EACH project:
+│   ├── 381-event-space.json
+│   ├── cycla.json
+│   ├── ding-dong-ping-pong.json
+│   ├── dojo.json
+│   ├── kantine-komtur.json
+│   ├── lokal-vier.json
+│   ├── ohm-club.json
+│   ├── reforma-x-people-people.json
+│   ├── slyrs-experience-centre.json
+│   ├── tresor-globus.json
+│   └── <your-project>.json         # <-- Drop a new JSON here to create a new project!
+└── services/                        # Dedicated file for EACH service:
+    ├── brand-architecture.json
+    ├── brand-product-activation.json
+    ├── event-brand-experiences.json
+    ├── interior-and-spatial-design.json
+    ├── retail-hospitality.json
+    ├── strategy-consulting.json
+    └── workplace-new-work.json
 ```
-Then open **http://localhost:3000**.
 
 ---
 
-## 🎨 How to Edit the Website (Guide for You & Your Friends)
+## 🚀 How to Add or Edit Content
 
-All files have human-readable names and are formatted for easy editing:
+### 1. Adding a New Project
+Create a new file in `content/projects/<slug>.json` (for example `content/projects/my-new-app.json`):
+```json
+{
+  "slug": "my-new-app",
+  "title": "My New App",
+  "category": "Full-Stack Web Apps / Cloud Systems",
+  "client": "Acme Corp",
+  "year": "2026",
+  "location": "Nairobi / Remote",
+  "description": "Comprehensive case study overview of the project architecture and features...",
+  "heroImage": "/images/og-social-preview.webp",
+  "galleryImages": [
+    "/images/og-social-preview.webp"
+  ]
+}
+```
+Run `npm run build` (or `node sync.js`). The template engine will automatically:
+- Create `projects/my-new-app/index.html` from the blueprint template
+- Add the project card into `/work` and the homepage
+- Rebuild the search and navigation index
 
-### 1. Colors, Typography & Theme Overrides (`css/custom.css`)
-Open [`css/custom.css`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/css/custom.css) to customize:
-- `--portfolio-accent`: Accent color (default orange `#ff4d00`).
-- `--portfolio-bg`: Main dark background.
-- `--portfolio-card-bg`: Project card background color.
-- Card hover animations and borders.
+### 2. Editing an Existing Project
+Open any file in `content/projects/*.json` (e.g. [`content/projects/dojo.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/projects/dojo.json)) and update the title, year, client, or description.
 
-### 2. Layout, Breakpoints & Animations (`css/main.css`)
-- [`css/main.css`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/css/main.css): Cleanly formatted CSS with comments and responsive `@media` rules.
-- [`css/work.css`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/css/work.css): Styles for the `/work` projects page.
-- [`css/about.css`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/css/about.css): Styles for the `/about-us` biography page.
-- [`css/project.css`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/css/project.css): Styles for `/projects/*` case study views.
+### 3. Editing Services
+Open any file in `content/services/*.json` (e.g. [`content/services/interior-and-spatial-design.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/services/interior-and-spatial-design.json)) and update the headline, description, deliverables, or image.
 
-### 3. Images, Icons & Media
-- **Images & Icons (`images/`):** All files have descriptive names (e.g. `favicon.svg`, `icon-github.png`, `icon-twitter-x.png`, `project-tresor-globus.webp`, `project-dojo.webp`). To update a project image, drop your new image in `images/`.
-- **Showcase Videos (`media/`):** Showcase videos (`media/showreel-hero.mp4`, `media/showreel-ambient.mp4`).
-- **Web Fonts (`fonts/`):** Local font files (`fonts/poppins-regular.woff2`, `fonts/magiel-black.woff2`, etc.).
-
-### 4. Text & Content
-Edit the HTML files directly:
-- [`index.html`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/index.html): Homepage
-- [`work/index.html`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/work/index.html): Works & Showcase
-- [`about-us/index.html`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/about-us/index.html): About Us / Studio
-- [`projects/`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/projects): Individual project case study pages
+### 4. Editing Pages & Bio
+- **Home**: [`content/pages/home.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/pages/home.json) (rotating hero headline words, CTA)
+- **About**: [`content/pages/about.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/pages/about.json) (bio paragraphs, skills, experience stats)
+- **Work**: [`content/pages/work.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/pages/work.json) (header and categories)
+- **Global**: [`content/site.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/site.json), [`content/navigation.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/navigation.json), [`content/footer.json`](file:///c:/Users/ADMIN/Desktop/projects/personal/portfolio/content/footer.json)
 
 ---
 
-## 📁 Pure HTML/CSS/JS Structure
+## ⚡ Applying Changes
+
+### Live in Browser (Development)
+When running locally via VS Code Live Server or any static local server, the client-side bridge automatically reflects edits in real time!
+
+### Static Pre-render (0ms Latency Production Build)
+To compile all JSON files directly into static HTML:
+```bash
+npm run build
+```
+*(or `node sync.js`)*
+
+---
+
+## 📁 Repository Overview
 
 ```text
 portfolio/
-├── css/
-│   ├── custom.css          # <-- START HERE: Easy theme & styling overrides
-│   ├── fonts.css           # Local webfont declarations
-│   ├── main.css            # Beautified layout & responsive rules
-│   ├── work.css            # Styles for /work
-│   ├── about.css           # Styles for /about-us
-│   ├── project.css         # Styles for /projects/*
-│   └── service.css         # Styles for /services/*
-├── fonts/                  # 58 local webfonts (.woff2)
-├── images/                 # 190+ descriptive images & SVG icons
-├── media/                  # Local video files (.mp4)
-├── js/                  # Client-side UI & motion runtime
-├── index.html              # Homepage
-├── work/index.html         # Projects showcase page
-├── about-us/index.html     # Biography & studio page
-├── projects/               # Detailed project case study pages
-├── services/               # Dedicated service pages
-├── render.yaml             # 1-click static deployment configuration
-└── README.md               # Documentation & guide
+├── content/            # Isolated, modular JSON files for all content
+├── css/                # Editable stylesheets (custom.css, fonts.css, etc.)
+├── js/                 # Pure JavaScript & spring motion physics runtime
+├── images/             # Semantic images & webp assets
+├── fonts/              # Local webfonts (poppins, inter, magiel)
+├── media/              # High-definition showcase MP4 videos
+├── index.html          # Homepage
+├── work/               # Work showcase catalog
+├── about-us/           # About Us page
+├── projects/           # Project case study pages (with .template.html)
+├── services/           # Service pages (with .template.html)
+├── sync.js             # 0ms static pre-render compiler
+└── README.md           # Documentation
 ```
-
----
-
-## 🌐 Deploying as a Static Site (Render / GitHub Pages / Netlify / Vercel)
-
-The site is 100% static:
-- **Render**: Connect repository → Select **Static Site** → Publish directory: `.`
-- **GitHub Pages**: Go to Settings → Pages → Select branch `main` → Folder `/` (root)
-- **Netlify / Vercel**: Import repository → Publish directory `.` → Deploy!

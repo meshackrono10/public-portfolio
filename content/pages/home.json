@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "greeting": "MESHACK — Building",
+    "rotatingKeywords": [
+      "clean frontend architecture",
+      "high-performance software",
+      "seamless digital products"
+    ],
+    "showreelVideo": "/media/showreel-hero.mp4"
+  },
+  "servicesSummary": {
+    "heading": "Services & Capabilities",
+    "subheading": "End-to-end design, full-stack architecture, and interactive engineering."
+  },
+  "featuredWork": {
+    "heading": "Selected Projects",
+    "buttonText": "View All Works",
+    "buttonLink": "/work"
+  },
+  "cta": {
+    "heading": "Let's build something remarkable together.",
+    "subheading": "Available for select freelance contracts, technical advisory, and full-time architecture roles.",
+    "email": "meshackrono05@gmail.com"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headline": "MESHACK is a Software Engineer & Full-Stack Developer based in Nairobi, Kenya.",
+  "subheadline": "Not just code. Solutions. Systems where engineering meets people.",
+  "bioParagraphs": [
+    "I work where clean software engineering meets thoughtful product design. Where complex architecture becomes an effortless user experience.",
+    "Based in Nairobi, Kenya, I specialize in architecting resilient cloud systems, performant web applications, and immersive interactive interfaces.",
+    "From distributed backends to buttery-smooth 60fps frontends, every detail is engineered with precision, scalability, and purpose."
+  ],
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "4+"
+    },
+    {
+      "label": "Projects Delivered",
+      "value": "20+"
+    },
+    {
+      "label": "Technologies Mastered",
+      "value": "15+"
+    }
+  ],
+  "skills": [
+    "JavaScript / TypeScript",
+    "React / Next.js / Node.js",
+    "Python & FastAPI",
+    "PostgreSQL & Cloud DBs",
+    "Framer Motion & 60fps Animations",
+    "Docker & Cloud Architecture",
+    "RESTful & GraphQL APIs",
+    "CI/CD & DevOps Automation"
+  ]
+}

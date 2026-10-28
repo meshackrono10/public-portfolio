@@ -17,10 +17,7 @@
 
     <meta name="generator" content="Framer 2b87f15" />
 
-    <title>
-      MESHACK - Studio for brand architecture, spatial design and live
-      experiences
-    </title>
+    <title>Cycla — Product & Spatial Design | Meshack</title>
 
     <meta
       name="description"
@@ -326,24 +323,25 @@
     <!-- End of headEnd -->
 
     <style id="portfolio-force-visibility">
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      h1 *,
-      h6 *,
-      [data-framer-appear-id],
-      [data-framer-name="Content"],
-      .framer-1k78wbv,
-      .framer-styles-preset-es7zc9,
-      .framer-styles-preset-bgyzp4,
-      [style*="opacity:0.001"],
-      [style*="opacity: 0.001"] {
-        opacity: 1 !important;
-        visibility: visible !important;
-      }
+      h1, h2, h3, h4, h5, h6,
+[data-framer-appear-id],
+[data-framer-name="Content"],
+.framer-1k78wbv,
+.framer-styles-preset-es7zc9,
+.framer-styles-preset-bgyzp4,
+[style*="opacity:0.001"],
+[style*="opacity: 0.001"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure layout sizers remain completely hidden to prevent text obstruction */
+[style*="visibility:hidden"],
+[style*="visibility: hidden"],
+[style*="pointer-events:none;white-space:pre-wrap"] {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
     </style>
   </head>
 

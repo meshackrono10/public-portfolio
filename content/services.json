@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "brand-architecture",
+    "title": "Brand Architecture",
+    "headline": "Full-Stack Web Apps",
+    "description": "Exhibitions, pop-ups and brand activations are where brands meet audiences in real time. We design immersive environments and spatial narratives that connect brand, culture and community.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-brand-product-activation-2.webp"
+  },
+  {
+    "slug": "brand-product-activation",
+    "title": "Brand Product Activation",
+    "headline": "Brand &amp; Product Activation",
+    "description": "Exhibitions, pop-ups and brand activations are where brands meet audiences in real time. We design immersive environments and spatial narratives that connect brand, culture and community.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-brand-product-activation-2.webp"
+  },
+  {
+    "slug": "event-brand-experiences",
+    "title": "Event Brand Experiences",
+    "headline": "Event &amp; Brand Experiences",
+    "description": "I architect and deliver full-stack software from system design through to production deployment. From high-throughput APIs and cloud infrastructure to responsive, accessible interfaces, every layer is engineered for reliability and speed.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-event-brand-experiences.png"
+  },
+  {
+    "slug": "interior-and-spatial-design",
+    "title": "Interior And Spatial Design",
+    "headline": "Interior and Spatial Design",
+    "description": "Spatial design shapes how people move, meet and interact. We create environments where architecture, atmosphere and narrative merge into one coherent spatial language, from individual interiors to complex environments.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-interior-and-spatial-design-9.webp"
+  },
+  {
+    "slug": "retail-hospitality",
+    "title": "Retail Hospitality",
+    "headline": "Retail &amp; Hospitality",
+    "description": "Retail and hospitality are where brands become part of everyday life. We design stores, restaurants and hospitality environments that create atmosphere, identity and memorable experiences.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-retail-hospitality-6.webp"
+  },
+  {
+    "slug": "strategy-consulting",
+    "title": "Strategy Consulting",
+    "headline": "Strategy &amp; Consulting",
+    "description": "Culture is not a trend, it’s context. It defines where brands belong and why they matter. We develop strategies, umbrella concepts and integrated campaigns that connect architecture, brand and culture from the very beginning.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-workplace-new-work-2.png"
+  },
+  {
+    "slug": "workplace-new-work",
+    "title": "Workplace New Work",
+    "headline": "Workplace &amp; New Work",
+    "description": "Workplaces today are more than offices. They are spaces for collaboration, identity and shared experience. We design contemporary work environments that connect architecture, brand and culture.From corporate headquarters to flexible workspaces.",
+    "deliverables": [
+      "Spatial Strategy & Concept Development",
+      "Creative Direction & Materiality",
+      "Full-Scale Architectural Planning",
+      "Detailed 3D Visualization"
+    ],
+    "heroImage": "/images/service-workplace-new-work-2.webp"
+  }
+]

@@ -44,30 +44,74 @@
   forceVisibleStyle.id = "portfolio-force-visible";
   forceVisibleStyle.textContent = `
     h1, h2, h3, h4, h5, h6,
-    h1 *, h6 *,
-    [data-framer-appear-id],
-    [data-framer-name="Content"],
-    .framer-1k78wbv,
-    .framer-styles-preset-es7zc9,
-    .framer-styles-preset-bgyzp4,
-    [style*="opacity:0.001"],
-    [style*="opacity: 0.001"] {
-      opacity: 1 !important;
-      visibility: visible !important;
-    }
+[data-framer-appear-id],
+[data-framer-name="Content"],
+.framer-1k78wbv,
+.framer-styles-preset-es7zc9,
+.framer-styles-preset-bgyzp4,
+[style*="opacity:0.001"],
+[style*="opacity: 0.001"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure layout sizers remain completely hidden to prevent text obstruction */
+[style*="visibility:hidden"],
+[style*="visibility: hidden"],
+[style*="pointer-events:none;white-space:pre-wrap"] {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
   `;
   document.head.appendChild(forceVisibleStyle);
 
-  let config = null;
+  let config = {};
 
   try {
-    const res = await fetch("/portfolio.config.json?v=" + Date.now());
-    if (!res.ok) return;
-    config = await res.json();
+    const timestamp = Date.now();
+    // Try fetching unified manifest first
+    const manifestRes = await fetch("/content/manifest.json?v=" + timestamp).catch(() => null);
+    if (manifestRes && manifestRes.ok) {
+      const manifest = await manifestRes.json();
+      config = {
+        author: manifest.site?.author || {},
+        socials: manifest.site?.socials || {},
+        site: manifest.site?.meta || {},
+        hero: manifest.pages?.home?.hero || manifest.site?.hero || {},
+        works: manifest.projects || [],
+        services: manifest.services || [],
+        about: manifest.pages?.about || {},
+        footer: manifest.footer || {},
+        navigation: manifest.navigation || {}
+      };
+    } else {
+      // Fallback to separate files
+      const [siteRes, workRes, aboutRes, servicesRes] = await Promise.all([
+        fetch("/content/site.json?v=" + timestamp).catch(() => null),
+        fetch("/content/work.json?v=" + timestamp).catch(() => null),
+        fetch("/content/about.json?v=" + timestamp).catch(() => null),
+        fetch("/content/services.json?v=" + timestamp).catch(() => null)
+      ]);
+
+      const siteData = siteRes && siteRes.ok ? await siteRes.json() : {};
+      const workData = workRes && workRes.ok ? await workRes.json() : [];
+      const aboutData = aboutRes && aboutRes.ok ? await aboutRes.json() : {};
+      const servicesData = servicesRes && servicesRes.ok ? await servicesRes.json() : [];
+
+      config = {
+        author: siteData.author || {},
+        socials: siteData.socials || {},
+        site: siteData.meta || {},
+        hero: siteData.hero || {},
+        works: Array.isArray(workData) ? workData : (workData.works || []),
+        about: aboutData,
+        services: servicesData
+      };
+    }
+
     window.portfolioConfig = config;
   } catch (e) {
-    console.warn("[Portfolio Runtime] Could not fetch config:", e);
-    return;
+    console.warn("[Portfolio Runtime] Could not fetch content:", e);
   }
 
   function applyConfig() {
@@ -174,13 +218,39 @@
       }
     }
 
-    // 2. PROJECT CARDS ON HOMEPAGE & /WORK
+    // 2. PROJECT CARDS ON /WORK & HOMEPAGE
+    if (path.includes("/work")) {
+      const container = document.querySelector(".framer-1ft8znd");
+      if (container) {
+        allWorks.forEach((proj) => {
+          let cardLink = container.querySelector(`a[href*="/projects/${proj.slug}"]`);
+          if (!cardLink) {
+            const firstCard = container.querySelector("a.framer-1a06iym");
+            if (firstCard) {
+              const newCard = firstCard.cloneNode(true);
+              newCard.setAttribute("href", `./projects/${proj.slug}`);
+              const titleEl = newCard.querySelector('[data-framer-name="Titel"] p, .framer-1femap5 p');
+              if (titleEl) titleEl.textContent = proj.title;
+              const catEl = newCard.querySelector('[data-framer-name="Client"] p, .framer-1hkyrek p');
+              if (catEl) catEl.textContent = proj.category || proj.client || "";
+              const imgEl = newCard.querySelector("img");
+              if (imgEl && proj.heroImage) {
+                imgEl.src = proj.heroImage;
+                imgEl.removeAttribute("srcset");
+              }
+              container.appendChild(newCard);
+            }
+          }
+        });
+      }
+    }
+
     allWorks.forEach((proj) => {
       if (!proj.slug) return;
       const cardLinks = document.querySelectorAll(`a[href*="/projects/${proj.slug}"]`);
       cardLinks.forEach((link) => {
         // Card Title
-        const titleEl = link.querySelector("h2, h3, h4, p[data-styles-preset]");
+        const titleEl = link.querySelector("h2, h3, h4, p[data-styles-preset], .framer-1femap5 p");
         if (titleEl && proj.title && titleEl.dataset.synced !== proj.title) {
           titleEl.textContent = proj.title;
           titleEl.dataset.synced = proj.title;
@@ -189,7 +259,7 @@
 
         // Card Category
         if (proj.category) {
-          const catEl = link.querySelector(".framer-1pxxh0g, .framer-1hkyrek");
+          const catEl = link.querySelector(".framer-1pxxh0g, .framer-1hkyrek, .framer-1hkyrek p");
           if (catEl && catEl.dataset.synced !== proj.category) {
             catEl.textContent = proj.category;
             catEl.dataset.synced = proj.category;

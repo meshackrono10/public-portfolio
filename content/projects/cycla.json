@@ -1,0 +1,13 @@
+{
+  "slug": "cycla",
+  "title": "Cycla",
+  "category": "Product & Spatial Design",
+  "client": "Cycla Mobility",
+  "year": "2022",
+  "location": "Munich, Germany",
+  "description": "Cycla explores sustainable micro-mobility and modular spatial storage, integrating industrial product design with minimal architectural showroom installations.",
+  "heroImage": "/images/og-social-banner.jpg",
+  "galleryImages": [
+    "/images/og-social-banner.jpg"
+  ]
+}

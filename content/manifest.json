@@ -1,0 +1,372 @@
+{
+  "site": {
+    "author": {
+      "name": "Meshack Rono",
+      "shortName": "Meshack",
+      "title": "Software Engineer & Full-Stack Developer",
+      "tagline": "Building scalable web applications, cloud APIs, and interactive UI/UX experiences",
+      "email": "meshackrono05@gmail.com",
+      "location": "Nairobi, Kenya"
+    },
+    "hero": {
+      "headline": "MESHACK — Building",
+      "rotatingKeywords": [
+        "clean frontend architecture",
+        "high-performance software",
+        "seamless digital products"
+      ]
+    },
+    "socials": {
+      "github": "https://github.com/meshackrono10",
+      "linkedin": "https://www.linkedin.com/in/meshackrono10/",
+      "instagram": "https://www.instagram.com/m.esh_ac/",
+      "email": "mailto:meshackrono05@gmail.com"
+    },
+    "meta": {
+      "title": "MESHACK — Software Engineer & Full-Stack Developer",
+      "description": "Software Engineer & Full-Stack Developer based in Nairobi, Kenya. Building scalable web applications, cloud APIs, and interactive UI/UX experiences.",
+      "url": "https://meshack.dev",
+      "ogImage": "/media/og-social-banner.jpg",
+      "favicon": "/images/favicon.svg"
+    }
+  },
+  "navigation": {
+    "brand": {
+      "name": "MESHACK",
+      "logoText": "M",
+      "homeUrl": "/"
+    },
+    "links": [
+      {
+        "label": "WORK",
+        "url": "/work"
+      },
+      {
+        "label": "ABOUT",
+        "url": "/about-us"
+      }
+    ]
+  },
+  "footer": {
+    "email": "meshackrono05@gmail.com",
+    "location": "Nairobi, Kenya",
+    "copyright": "© 2026 MESHACK. All rights reserved.",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/meshackrono10"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/meshackrono10/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/m.esh_ac/"
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "greeting": "MESHACK — Building",
+        "rotatingKeywords": [
+          "clean frontend architecture",
+          "high-performance software",
+          "seamless digital products"
+        ],
+        "showreelVideo": "/media/showreel-hero.mp4"
+      },
+      "servicesSummary": {
+        "heading": "Services & Capabilities",
+        "subheading": "End-to-end design, full-stack architecture, and interactive engineering."
+      },
+      "featuredWork": {
+        "heading": "Selected Projects",
+        "buttonText": "View All Works",
+        "buttonLink": "/work"
+      },
+      "cta": {
+        "heading": "Let's build something remarkable together.",
+        "subheading": "Available for select freelance contracts, technical advisory, and full-time architecture roles.",
+        "email": "meshackrono05@gmail.com"
+      }
+    },
+    "about": {
+      "headline": "MESHACK is a Software Engineer & Full-Stack Developer based in Nairobi, Kenya.",
+      "subheadline": "Not just code. Solutions. Systems where engineering meets people.",
+      "bioParagraphs": [
+        "I work where clean software engineering meets thoughtful product design. Where complex architecture becomes an effortless user experience.",
+        "Based in Nairobi, Kenya, I specialize in architecting resilient cloud systems, performant web applications, and immersive interactive interfaces.",
+        "From distributed backends to buttery-smooth 60fps frontends, every detail is engineered with precision, scalability, and purpose."
+      ],
+      "stats": [
+        {
+          "label": "Years Experience",
+          "value": "4+"
+        },
+        {
+          "label": "Projects Delivered",
+          "value": "20+"
+        },
+        {
+          "label": "Technologies Mastered",
+          "value": "15+"
+        }
+      ],
+      "skills": [
+        "JavaScript / TypeScript",
+        "React / Next.js / Node.js",
+        "Python & FastAPI",
+        "PostgreSQL & Cloud DBs",
+        "Framer Motion & 60fps Animations",
+        "Docker & Cloud Architecture",
+        "RESTful & GraphQL APIs",
+        "CI/CD & DevOps Automation"
+      ]
+    },
+    "work": {
+      "header": {
+        "title": "Works & Showcase",
+        "subtitle": "A curated selection of architecture, full-stack systems, and interactive digital spaces."
+      },
+      "filterCategories": [
+        "All",
+        "Retail & Hospitality",
+        "Workplace & New Work",
+        "Brand Architecture",
+        "Spatial Design"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "slug": "381-event-space",
+      "title": "381 Event Space",
+      "category": "Event Venue & Stage Design",
+      "client": "381 Space",
+      "year": "2023",
+      "location": "Braunschweig, Germany",
+      "description": "381 Event Space in Braunschweig combines flexible architectural zoning, modular stage configurations, and atmospheric lighting for next-generation brand events and creative summits.",
+      "heroImage": "/images/og-social-banner.jpg",
+      "galleryImages": [
+        "/images/og-social-banner.jpg"
+      ]
+    },
+    {
+      "slug": "cycla",
+      "title": "Cycla",
+      "category": "Product & Spatial Design",
+      "client": "Cycla Mobility",
+      "year": "2022",
+      "location": "Munich, Germany",
+      "description": "Cycla explores sustainable micro-mobility and modular spatial storage, integrating industrial product design with minimal architectural showroom installations.",
+      "heroImage": "/images/og-social-banner.jpg",
+      "galleryImages": [
+        "/images/og-social-banner.jpg"
+      ]
+    },
+    {
+      "slug": "ding-dong-ping-pong",
+      "title": "Ding Dong Ping Pong",
+      "category": "Interactive Installation",
+      "client": "Ding Dong Collective",
+      "year": "2023",
+      "location": "Berlin, Germany",
+      "description": "Ding Dong Ping Pong is an interactive social installation in Berlin that combines recreational sport, vibrant industrial materials, and dynamic spatial design.",
+      "heroImage": "/images/og-social-banner.jpg",
+      "galleryImages": [
+        "/images/og-social-banner.jpg"
+      ]
+    },
+    {
+      "slug": "dojo",
+      "title": "Dojo",
+      "category": "Workplace & New Work / Interior Design",
+      "client": "DOJO",
+      "year": "2023",
+      "location": "Berlin, Germany",
+      "description": "Where History Meets High Contrast. MESHACK reimagines DOJO's Kreuzberg headquarters—a former church transformed into a high-performance creative hub defined by sleek materials, acoustic precision, and an iconic domed centerpiece.",
+      "heroImage": "/images/og-social-preview-3.webp",
+      "galleryImages": [
+        "/images/og-social-preview-3.webp"
+      ]
+    },
+    {
+      "slug": "kantine-komtur",
+      "title": "Kantine Komtur",
+      "category": "Interior Design",
+      "client": "Kantine Komtur",
+      "year": "2022",
+      "location": "Berlin, Germany",
+      "description": "Kantine Komtur blends historical architectural heritage with contemporary hospitality design, creating an inviting culinary destination in Berlin.",
+      "heroImage": "/images/og-social-banner.jpg",
+      "galleryImages": [
+        "/images/og-social-banner.jpg"
+      ]
+    },
+    {
+      "slug": "lokal-vier",
+      "title": "Lokal Vier",
+      "category": "Retail & Hospitality",
+      "client": "LOKAL VIER",
+      "year": "2021",
+      "location": "Hannover, Germany",
+      "description": "For Lokal Vier in Hanover, MESHACK created a warm, contemporary restaurant concept designed as an all-day, 24/7 meeting place. The space combines a cozy, inviting atmosphere with a cool, modern aesthetic, encouraging guests to stay, connect, and return at any time of day.",
+      "heroImage": "/images/og-social-preview-2.webp",
+      "galleryImages": [
+        "/images/og-social-preview-2.webp"
+      ]
+    },
+    {
+      "slug": "ohm-club",
+      "title": "Ohm Club",
+      "category": "Retail & Hospitality",
+      "client": "OHM",
+      "year": "2019",
+      "location": "Berlin, Germany",
+      "description": "OHM, one of Berlin's most iconic electronic music clubs, was conceived, designed and built in collaboration with MESHACK. The space translates the energy of electronic music into a minimal, atmospheric environment focused on sound, rhythm and community.",
+      "heroImage": "/images/og-social-preview.jpeg",
+      "galleryImages": [
+        "/images/project-tresor-globus.png"
+      ]
+    },
+    {
+      "slug": "reforma-x-people-people",
+      "title": "Reforma X People People",
+      "category": "Retail & Hospitality / Interior Design",
+      "client": "REFORMA",
+      "year": "2024",
+      "location": "Cologne, Germany",
+      "description": "Located in the heart of Cologne's Belgian Quarter, this dual-concept space by MESHACK blends urban energy with mindful movement. A harmonious interplay of raw concrete, warm timber, and refined lighting.",
+      "heroImage": "/images/og-social-preview-2.jpg",
+      "galleryImages": [
+        "/images/og-social-preview-2.jpg"
+      ]
+    },
+    {
+      "slug": "slyrs-experience-centre",
+      "title": "Slyrs Experience Centre",
+      "category": "Brand Architecture",
+      "client": "Slyrs Distillery",
+      "year": "2024",
+      "location": "Schliersee, Germany",
+      "description": "The Slyrs Experience Centre at Lake Schliersee offers an immersive journey through the world of whisky with interactive installations and sensory experiences inspired by the surrounding landscape.",
+      "heroImage": "/images/og-social-preview-2.jpeg",
+      "galleryImages": [
+        "/images/project-slyrs-experience-centre.png",
+        "/images/project-slyrs-experience-centre.jpg"
+      ]
+    },
+    {
+      "slug": "tresor-globus",
+      "title": "Tresor Globus",
+      "category": "Retail & Hospitality",
+      "client": "Tresor Berlin",
+      "year": "2023",
+      "location": "Berlin, Germany",
+      "description": "MESHACK redesigned the Globus floor at Tresor Berlin with a new spatial concept that redefines one of the club's most iconic spaces. A reworked layout, centrally positioned bar, and flexible room structure create a dynamic balance between dance floor and lounge areas, adaptable to different event formats. Combined with full-surface sound absorbers and the Lambda sound system, the redesign merges architecture, acoustics, and atmosphere into one cohesive club experience.",
+      "heroImage": "/images/og-social-preview.webp",
+      "galleryImages": [
+        "/images/project-tresor-globus-2.webp",
+        "/images/project-tresor-globus.webp",
+        "/images/project-tresor-globus-8.webp",
+        "/images/project-tresor-globus-9.webp"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "brand-architecture",
+      "title": "Brand Architecture",
+      "headline": "Full-Stack Web Apps",
+      "description": "Exhibitions, pop-ups and brand activations are where brands meet audiences in real time. We design immersive environments and spatial narratives that connect brand, culture and community.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-brand-product-activation-2.webp"
+    },
+    {
+      "slug": "brand-product-activation",
+      "title": "Brand Product Activation",
+      "headline": "Brand &amp; Product Activation",
+      "description": "Exhibitions, pop-ups and brand activations are where brands meet audiences in real time. We design immersive environments and spatial narratives that connect brand, culture and community.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-brand-product-activation-2.webp"
+    },
+    {
+      "slug": "event-brand-experiences",
+      "title": "Event Brand Experiences",
+      "headline": "Event &amp; Brand Experiences",
+      "description": "I architect and deliver full-stack software from system design through to production deployment. From high-throughput APIs and cloud infrastructure to responsive, accessible interfaces, every layer is engineered for reliability and speed.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-event-brand-experiences.png"
+    },
+    {
+      "slug": "interior-and-spatial-design",
+      "title": "Interior And Spatial Design",
+      "headline": "Interior and Spatial Design",
+      "description": "Spatial design shapes how people move, meet and interact. We create environments where architecture, atmosphere and narrative merge into one coherent spatial language, from individual interiors to complex environments.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-interior-and-spatial-design-9.webp"
+    },
+    {
+      "slug": "retail-hospitality",
+      "title": "Retail Hospitality",
+      "headline": "Retail &amp; Hospitality",
+      "description": "Retail and hospitality are where brands become part of everyday life. We design stores, restaurants and hospitality environments that create atmosphere, identity and memorable experiences.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-retail-hospitality-6.webp"
+    },
+    {
+      "slug": "strategy-consulting",
+      "title": "Strategy Consulting",
+      "headline": "Strategy &amp; Consulting",
+      "description": "Culture is not a trend, it’s context. It defines where brands belong and why they matter. We develop strategies, umbrella concepts and integrated campaigns that connect architecture, brand and culture from the very beginning.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-workplace-new-work-2.png"
+    },
+    {
+      "slug": "workplace-new-work",
+      "title": "Workplace New Work",
+      "headline": "Workplace &amp; New Work",
+      "description": "Workplaces today are more than offices. They are spaces for collaboration, identity and shared experience. We design contemporary work environments that connect architecture, brand and culture.From corporate headquarters to flexible workspaces.",
+      "deliverables": [
+        "Spatial Strategy & Concept Development",
+        "Creative Direction & Materiality",
+        "Full-Scale Architectural Planning",
+        "Detailed 3D Visualization"
+      ],
+      "heroImage": "/images/service-workplace-new-work-2.webp"
+    }
+  ],
+  "compiledAt": "2026-10-27T13:29:08.270Z"
+}

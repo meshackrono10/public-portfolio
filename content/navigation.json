@@ -1,0 +1,17 @@
+{
+  "brand": {
+    "name": "MESHACK",
+    "logoText": "M",
+    "homeUrl": "/"
+  },
+  "links": [
+    {
+      "label": "WORK",
+      "url": "/work"
+    },
+    {
+      "label": "ABOUT",
+      "url": "/about-us"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "kantine-komtur",
+  "title": "Kantine Komtur",
+  "category": "Interior Design",
+  "client": "Kantine Komtur",
+  "year": "2022",
+  "location": "Berlin, Germany",
+  "description": "Kantine Komtur blends historical architectural heritage with contemporary hospitality design, creating an inviting culinary destination in Berlin.",
+  "heroImage": "/images/og-social-banner.jpg",
+  "galleryImages": [
+    "/images/og-social-banner.jpg"
+  ]
+}

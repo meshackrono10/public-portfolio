@@ -1,0 +1,13 @@
+{
+  "slug": "ohm-club",
+  "title": "Ohm Club",
+  "category": "Retail & Hospitality",
+  "client": "OHM",
+  "year": "2019",
+  "location": "Berlin, Germany",
+  "description": "OHM, one of Berlin's most iconic electronic music clubs, was conceived, designed and built in collaboration with MESHACK. The space translates the energy of electronic music into a minimal, atmospheric environment focused on sound, rhythm and community.",
+  "heroImage": "/images/og-social-preview.jpeg",
+  "galleryImages": [
+    "/images/project-tresor-globus.png"
+  ]
+}

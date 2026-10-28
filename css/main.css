@@ -4778,7 +4778,6 @@ td.framer-text,th.framer-text {
 
 /* Visibility rules */
 h1, h2, h3, h4, h5, h6,
-h1 *, h6 *,
 [data-framer-appear-id],
 [data-framer-name="Content"],
 .framer-1k78wbv,
@@ -4788,4 +4787,12 @@ h1 *, h6 *,
 [style*="opacity: 0.001"] {
   opacity: 1 !important;
   visibility: visible !important;
+}
+
+/* Ensure layout sizers remain completely hidden to prevent text obstruction */
+[style*="visibility:hidden"],
+[style*="visibility: hidden"],
+[style*="pointer-events:none;white-space:pre-wrap"] {
+  visibility: hidden !important;
+  opacity: 0 !important;
 }

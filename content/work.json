@@ -1,0 +1,136 @@
+[
+  {
+    "slug": "381-event-space",
+    "title": "381 Event Space",
+    "category": "Event Venue & Stage Design",
+    "client": "381 Space",
+    "year": "2023",
+    "location": "Braunschweig, Germany",
+    "description": "381 Event Space in Braunschweig combines flexible architectural zoning, modular stage configurations, and atmospheric lighting for next-generation brand events and creative summits.",
+    "heroImage": "/images/og-social-banner.jpg",
+    "galleryImages": [
+      "/images/og-social-banner.jpg"
+    ]
+  },
+  {
+    "slug": "cycla",
+    "title": "Cycla",
+    "category": "Product & Spatial Design",
+    "client": "Cycla Mobility",
+    "year": "2022",
+    "location": "Munich, Germany",
+    "description": "Cycla explores sustainable micro-mobility and modular spatial storage, integrating industrial product design with minimal architectural showroom installations.",
+    "heroImage": "/images/og-social-banner.jpg",
+    "galleryImages": [
+      "/images/og-social-banner.jpg"
+    ]
+  },
+  {
+    "slug": "ding-dong-ping-pong",
+    "title": "Ding Dong Ping Pong",
+    "category": "Interactive Installation",
+    "client": "Ding Dong Collective",
+    "year": "2023",
+    "location": "Berlin, Germany",
+    "description": "Ding Dong Ping Pong is an interactive social installation in Berlin that combines recreational sport, vibrant industrial materials, and dynamic spatial design.",
+    "heroImage": "/images/og-social-banner.jpg",
+    "galleryImages": [
+      "/images/og-social-banner.jpg"
+    ]
+  },
+  {
+    "slug": "dojo",
+    "title": "Dojo",
+    "category": "Workplace & New Work / Interior Design",
+    "client": "DOJO",
+    "year": "2023",
+    "location": "Berlin, Germany",
+    "description": "Where History Meets High Contrast. MESHACK reimagines DOJO's Kreuzberg headquarters—a former church transformed into a high-performance creative hub defined by sleek materials, acoustic precision, and an iconic domed centerpiece.",
+    "heroImage": "/images/og-social-preview-3.webp",
+    "galleryImages": [
+      "/images/og-social-preview-3.webp"
+    ]
+  },
+  {
+    "slug": "kantine-komtur",
+    "title": "Kantine Komtur",
+    "category": "Interior Design",
+    "client": "Kantine Komtur",
+    "year": "2022",
+    "location": "Berlin, Germany",
+    "description": "Kantine Komtur blends historical architectural heritage with contemporary hospitality design, creating an inviting culinary destination in Berlin.",
+    "heroImage": "/images/og-social-banner.jpg",
+    "galleryImages": [
+      "/images/og-social-banner.jpg"
+    ]
+  },
+  {
+    "slug": "lokal-vier",
+    "title": "Lokal Vier",
+    "category": "Retail & Hospitality",
+    "client": "LOKAL VIER",
+    "year": "2021",
+    "location": "Hannover, Germany",
+    "description": "For Lokal Vier in Hanover, MESHACK created a warm, contemporary restaurant concept designed as an all-day, 24/7 meeting place. The space combines a cozy, inviting atmosphere with a cool, modern aesthetic, encouraging guests to stay, connect, and return at any time of day.",
+    "heroImage": "/images/og-social-preview-2.webp",
+    "galleryImages": [
+      "/images/og-social-preview-2.webp"
+    ]
+  },
+  {
+    "slug": "ohm-club",
+    "title": "Ohm Club",
+    "category": "Retail & Hospitality",
+    "client": "OHM",
+    "year": "2019",
+    "location": "Berlin, Germany",
+    "description": "OHM, one of Berlin's most iconic electronic music clubs, was conceived, designed and built in collaboration with MESHACK. The space translates the energy of electronic music into a minimal, atmospheric environment focused on sound, rhythm and community.",
+    "heroImage": "/images/og-social-preview.jpeg",
+    "galleryImages": [
+      "/images/project-tresor-globus.png"
+    ]
+  },
+  {
+    "slug": "reforma-x-people-people",
+    "title": "Reforma X People People",
+    "category": "Retail & Hospitality / Interior Design",
+    "client": "REFORMA",
+    "year": "2024",
+    "location": "Cologne, Germany",
+    "description": "Located in the heart of Cologne's Belgian Quarter, this dual-concept space by MESHACK blends urban energy with mindful movement. A harmonious interplay of raw concrete, warm timber, and refined lighting.",
+    "heroImage": "/images/og-social-preview-2.jpg",
+    "galleryImages": [
+      "/images/og-social-preview-2.jpg"
+    ]
+  },
+  {
+    "slug": "slyrs-experience-centre",
+    "title": "Slyrs Experience Centre",
+    "category": "Brand Architecture",
+    "client": "Slyrs Distillery",
+    "year": "2024",
+    "location": "Schliersee, Germany",
+    "description": "The Slyrs Experience Centre at Lake Schliersee offers an immersive journey through the world of whisky with interactive installations and sensory experiences inspired by the surrounding landscape.",
+    "heroImage": "/images/og-social-preview-2.jpeg",
+    "galleryImages": [
+      "/images/project-slyrs-experience-centre.png",
+      "/images/project-slyrs-experience-centre.jpg"
+    ]
+  },
+  {
+    "slug": "tresor-globus",
+    "title": "Tresor Globus",
+    "category": "Retail & Hospitality",
+    "client": "Tresor Berlin",
+    "year": "2023",
+    "location": "Berlin, Germany",
+    "description": "MESHACK redesigned the Globus floor at Tresor Berlin with a new spatial concept that redefines one of the club's most iconic spaces. A reworked layout, centrally positioned bar, and flexible room structure create a dynamic balance between dance floor and lounge areas, adaptable to different event formats. Combined with full-surface sound absorbers and the Lambda sound system, the redesign merges architecture, acoustics, and atmosphere into one cohesive club experience.",
+    "heroImage": "/images/og-social-preview.webp",
+    "galleryImages": [
+      "/images/project-tresor-globus-2.webp",
+      "/images/project-tresor-globus.webp",
+      "/images/project-tresor-globus-8.webp",
+      "/images/project-tresor-globus-9.webp"
+    ]
+  }
+]
